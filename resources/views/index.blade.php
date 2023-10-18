@@ -10,13 +10,12 @@
         <div class="th-hero-slide">
             <div class="container">
                 <div class="row align-items-end">
-                    <div class="col-lg-12 col-xl-12">
+                    <div class="col-lg-12 col-xl-12 d-flex justify-content-center">
                         <div class="hero-style1 text-center">
                             <span class="sub-title" data-ani="slideindown" data-ani-delay="0.2s">Bienvenue chez Global Skin </span>
                             <h1 class="hero-title" data-ani="slideindown" data-ani-delay="0.3s">Epilation Définitive au Laser à Bruxelles</h1>
-                            <div class="btn-group justify-content-center justify-content-lg-start" data-ani="slideindown" data-ani-delay="0.4s"><a href="service.html"
-                                                                                 class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">En savoir +<i
-                                        class="fa-regular fa-arrow-right ms-2"></i></a></div>
+                            <div class="btn-group justify-content-center" data-ani="slideindown" data-ani-delay="0.4s">
+                                <a href="service.html" class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">En savoir +<i class="fa-regular fa-arrow-right ms-2"></i></a></div>
                         </div>
                     </div>
 
@@ -33,159 +32,124 @@
 
 </section>
 <section class="service-area2 overflow-hidden space" id="service-sec">
-    <div class="container">
-        <div class="row">
-            <div class="title-area text-center"><span class="sub-title style2">What We Do</span> <img
-                    src="assets/img/theme-img/title_shape_1.svg" alt="">
-                <h2 class="sec-title">Professional Spa and Beauty Service</h2>
-            </div>
-        </div>
-        <div class="row slider-shadow th-carousel number-dots" id="serviceSlide" data-slide-show="4"
-             data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="2" data-dots="true"
-             data-xl-dots="true" data-ml-dots="true" data-lg-dots="true" data-md-dots="true">
-            <div class="col-md-6 col-lg-6 col-xl-4">
-                <div class="service-box wow fadeInUp">
-                    <div class="service-box_icon">
-                        <div class="global-icon"><img src="assets/img/icon/service_1_1.svg" alt="Icon"></div>
+    <div class="about-sec overflow-hidden space" id="about-sec">
+        <div class="container align-item-center">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="img-box4">
+                        <div class="img4 wow fadeInUp"><img class="tilt-active" src="assets/img/normal/about_3_1.jpg"
+                                                            alt="About"></div>
+                        <div class="img5 wow fadeInRight"><img class="tilt-active" src="assets/img/normal/about_3_2.jpg"
+                                                               alt="About"></div>
+                        <div class="about-shape"><img src="assets/img/normal/about_3_3.jpg" alt="About"></div>
+                        <div class="about-company-since-wrap">
+                            <div class="about-icon"><img src="assets/img/icon/logo-ic.png" alt="img"></div>
+                            <div class="about-tag"><span class="about-anime">Global   Skin</span></div>
+                        </div>
                     </div>
-                    <h3 class="box-title"><a href="service-details.html">Body Massages</a></h3>
-                    <p class="service-box_text">Whether youre seeking a rejuvenating facial, a soothing massage body
-                        treatment</p>
                 </div>
-            </div>
-            <div class="col-md-6 col-lg-6 col-xl-4">
-                <div class="service-box wow fadeInUp">
-                    <div class="service-box_icon">
-                        <div class="global-icon"><img src="assets/img/icon/service_1_2.svg" alt="Icon"></div>
+                <div class="col-xl-6">
+                    <div class="ps-xl-4 wow fadeInUp">
+                        <div class="title-area"><span class="sub-title">GLOBAL SKIN <img
+                                    src="assets/img/theme-img/title_right.svg" alt=""></span>
+                            <h2 class="sec-title">Centre d'épilation définitive à Bruxelles</h2>
+                            <p class="about-desc">Global Skin est un centre d'épilation définitive au laser situé à Bruxelles qui vous offre une gamme complète de services de soins de la peau. <br>
+
+
+                                Notre technologie de pointe pour l'épilation définitive au laser est le laser Eden Skin, qui est connu pour être l'un des lasers les plus performants du marché. <br>Ce laser utilise une technologie de
+                                refroidissement avancée pour minimiser l'inconfort et la douleur pendant le traitement.</p>
+                        </div>
+                        <div class="about-counter">
+                            <div class="th-counterup">
+
+                            </div>
+
+                        </div>
+                        <div class="btn-group mt-45"><a href="about.html" class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">En savoir +<i
+                                    class="fa-solid fa-arrow-right ms-2"></i></a>
+
+
+                            </div>
+                        </div>
                     </div>
-                    <h3 class="box-title"><a href="service-details.html">Oil Therapy</a></h3>
-                    <p class="service-box_text">At our beauty spa salon, we offer a wide range of services tailored
-                        to meet.</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-6 col-xl-4">
-                <div class="service-box wow fadeInUp">
-                    <div class="service-box_icon">
-                        <div class="global-icon"><img src="assets/img/icon/service_1_3.svg" alt="Icon"></div>
-                    </div>
-                    <h3 class="box-title"><a href="service-details.html">Aroma Therapy</a></h3>
-                    <p class="service-box_text">We also offer private rooms for more intimate treatments and
-                        couples.</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-6 col-xl-4">
-                <div class="service-box wow fadeInUp">
-                    <div class="service-box_icon">
-                        <div class="global-icon"><img src="assets/img/icon/service_1_4.svg" alt="Icon"></div>
-                    </div>
-                    <h3 class="box-title"><a href="service-details.html">Waxing</a></h3>
-                    <p class="service-box_text">Relax in our serene lounge area, sip on herbal teas, and immerse
-                        yourself.</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-6 col-xl-4">
-                <div class="service-box wow fadeInUp">
-                    <div class="service-box_icon">
-                        <div class="global-icon"><img src="assets/img/icon/service_1_5.svg" alt="Icon"></div>
-                    </div>
-                    <h3 class="box-title"><a href="service-details.html">Nail Manicure</a></h3>
-                    <p class="service-box_text">Relax in our serene lounge area, sip on herbal teas, and immerse
-                        yourself.</p>
                 </div>
             </div>
         </div>
     </div>
+
+
+
+
+
     <div class="shape-mockup jump d-none d-xl-block" data-bottom="0%" data-left="0%"><img
             src="assets/img/shape/leaves_1.png" alt="shape"></div>
     <div class="shape-mockup jump d-none d-xl-block" data-top="20%" data-right="0%"><img
             src="assets/img/shape/leaves_7.png" alt="shape"></div>
+    <div class="sec-shape"><span class="sec-shape_img"><img src="assets/img/icon/girl.svg" alt=""></span></div>
 </section>
-<div class="about-sec overflow-hidden bg-smoke space" id="about-sec">
+
+<div class="overflow-hidden space">
     <div class="container">
         <div class="row">
-            <div class="col-xl-6 wow fadeInLeft">
-                <div class="img-box1">
-                    <div class="img1"><img class="tilt-active" src="assets/img/normal/about_1.jpg" alt="About">
-                    </div>
-                    <div class="img2"><img class="tilt-active" src="assets/img/normal/about_2.jpg" alt="About">
-                    </div>
-                    <div class="img3"><img src="assets/img/shape/flower_1_3.png" alt="About"></div>
+            <div class="title-area text-center mb-25">
+                <h2 class="sec-title">Pourquoi vous devriez passer à
+                    l'épilation définitive au laser ?</h2>
+            </div>
+        </div>
+        <div class="row slider-shadow th-carousel" data-slide-show="3" data-lg-slide-show="2" data-sm-slide-show="1"
+             data-xs-slide-show="1">
+            <div class="col-md-6 col-lg-4">
+                <div class="testi-grid wow fadeInUp">
+                    <div class="testi-grid_img"><img src="assets/img/testimonial/testi_2_1.jpg" alt=""></div>
+                    <h3 class="box-title">Le traitement laser n'est pas douleureux sans être agréable pour autant mais tout est fait pour
+                        le confort et le bien-être sur les zones les plus sensibles !</h3>
+
+
+                    <div class="testi-quote"><img src="assets/img/shape/quote_2.png" alt=""></div>
+                    <div class="testi-shape1"><img src="assets/img/shape/leaf_2.svg" alt=""></div>
+                    <div class="testi-shape2"><img src="assets/img/shape/flower_1_6.svg" alt=""></div>
                 </div>
             </div>
-            <div class="col-xl-6">
-                <div class="ps-xl-4 wow fadeInRight">
-                    <div class="title-area mb-25"><span class="sub-title">About Us<img
-                                src="assets/img/theme-img/title_right.svg" alt=""></span>
-                        <h2 class="sec-title mb-20">Discover The Ultimate Spa Massage Experience</h2>
-                        <p class="mb-30">Discover a world of tranquility, luxury, and personalized care as you
-                            embark on a journey of self-care and renewal. Visit us today and let us transport you to
-                            a realm of beauty and serenity.</p>
-                    </div>
-                    <div class="about-wrapper">
-                        <div class="about-info">
-                            <h3 class="about-info_title h6"><img src="assets/img/theme-img/title_left.svg"
-                                                                 alt="">Personal Program</h3>
-                        </div>
-                        <div class="about-info">
-                            <h3 class="about-info_title h6"><img src="assets/img/theme-img/title_left.svg"
-                                                                 alt="">Expert Nutritionist</h3>
-                        </div>
-                    </div>
-                    <p class="mb-30">We also offer private rooms for more intimate treatments and couples' packages
-                        for a romantic escape.</p><a href="about.html" class="th-btn">Discover More<i
-                            class="fa-regular fa-arrow-right ms-2"></i></a>
+            <div class="col-md-6 col-lg-4">
+                <div class="testi-grid wow fadeInDown">
+                    <div class="testi-grid_img"><img src="assets/img/testimonial/testi_2_2.jpg" alt=""></div>
+                    <h3 class="box-title">Réalisée dans des conditions d'hygiène irréprochables, cette méthode d'épilation met un terme
+                        aux problèmes d'inflammations, d'infections et de démangeaisons !.</h3>
+
+                    <div class="testi-quote"><img src="assets/img/shape/quote_2.png" alt=""></div>
+                    <div class="testi-shape1"><img src="assets/img/shape/leaf_2.svg" alt=""></div>
+                    <div class="testi-shape2"><img src="assets/img/shape/flower_1_6.svg" alt=""></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="testi-grid wow fadeInUp">
+                    <div class="testi-grid_img"><img src="assets/img/testimonial/testi_2_3.jpg" alt=""></div>
+                    <h3 class="box-title">Terminées les douleurs régulières liées à l'épilation à la cire !</h3>
+
+                    <div class="testi-quote"><img src="assets/img/shape/quote_2.png" alt=""></div>
+                    <div class="testi-shape1"><img src="assets/img/shape/leaf_2.svg" alt=""></div>
+                    <div class="testi-shape2"><img src="assets/img/shape/flower_1_6.svg" alt=""></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="testi-grid wow fadeInDown">
+                    <div class="testi-grid_img"><img src="assets/img/testimonial/testi_2_4.jpg" alt=""></div>
+                    <h3 class="box-title">Gagnez votre sérénité sans avoir à vous soucier de vos poils !
+
+                    </h3>
+
+                    <div class="testi-quote"><img src="assets/img/shape/quote_2.png" alt=""></div>
+                    <div class="testi-shape1"><img src="assets/img/shape/leaf_2.svg" alt=""></div>
+                    <div class="testi-shape2"><img src="assets/img/shape/flower_1_6.svg" alt=""></div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="shape-mockup" data-top="0%" data-left="0%"><img src="assets/img/shape/flower_1_1.png" alt="shape">
-    </div>
-    <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-right="0%"><img
-            src="assets/img/shape/flower_1_2.png" alt="shape"></div>
 </div>
+
 <div class="overflow-hidden">
     <div class="container">
         <div class="counter-sec space-top">
-            <div class="th-counterup wow fadeInLeft">
-                <div class="inner">
-                    <div class="icon"><img src="assets/img/icon/counter_1_1.svg" alt=""></div>
-                    <div class="content">
-                        <h3 class="counter"><span class="odometer" data-count="26">00</span> <span
-                                class="counter-number">+</span></h3>
-                        <p class="counter-card_text">Years of Experience</p>
-                    </div>
-                </div>
-            </div>
-            <div class="th-counterup wow fadeInLeft">
-                <div class="inner">
-                    <div class="icon"><img src="assets/img/icon/counter_1_2.svg" alt=""></div>
-                    <div class="content">
-                        <h3 class="counter"><span class="odometer" data-count="100">00</span> <span
-                                class="counter-number">%</span></h3>
-                        <p class="counter-card_text">Natural Products</p>
-                    </div>
-                </div>
-            </div>
-            <div class="th-counterup wow fadeInLeft">
-                <div class="inner">
-                    <div class="icon"><img src="assets/img/icon/counter_1_3.svg" alt=""></div>
-                    <div class="content">
-                        <h3 class="counter"><span class="odometer" data-count="56">00</span> <span
-                                class="counter-number">k+</span></h3>
-                        <p class="counter-card_text">Satisfied Clients</p>
-                    </div>
-                </div>
-            </div>
-            <div class="th-counterup wow fadeInLeft">
-                <div class="inner">
-                    <div class="icon"><img src="assets/img/icon/counter_1_4.svg" alt=""></div>
-                    <div class="content">
-                        <h3 class="counter"><span class="odometer" data-count="36">00</span> <span
-                                class="counter-number">+</span></h3>
-                        <p class="counter-card_text">Specialists Team</p>
-                    </div>
-                </div>
-            </div>
         </div>
         <div class="sec-shape"><span class="sec-shape_img"><img src="assets/img/icon/girl.svg" alt=""></span></div>
     </div>
@@ -496,7 +460,7 @@
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInRight">
-                <div class="title-area text-center"><span class="sub-title style2">Testimonials</span> <img
+                <div class="title-area text-center"><span class="sub-title style2">Tegh</span> <img
                         src="assets/img/theme-img/title_shape_1.svg" alt="">
                     <h2 class="sec-title">Our Customer Feedback</h2>
                 </div>

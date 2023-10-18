@@ -2127,6 +2127,11 @@ textarea.is-invalid {
 /*------------------- 3.3. Titles -------------------*/
 .sec-title {
   margin-bottom: calc(var(--section-title-space) - 12px);
+    position: relative;
+    z-index: 11;
+    background-image: linear-gradient(to top, #000 64%, #d09223 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .sub-title {
@@ -13853,7 +13858,8 @@ span.select2-selection.select2-selection--single:focus {
 .about-desc {
   border-left: 3px solid var(--theme-color);
   padding-left: 15px;
-  font-weight: 700;
+  font-weight: 400;
+
 }
 
 .video-group {
@@ -23837,12 +23843,12 @@ span.select2-selection.select2-selection--single:focus {
 
 .space,
 .space-top {
-  padding-top: var(--section-space);
+  padding-top: 40px;
 }
 
 .space,
 .space-bottom {
-  padding-bottom: var(--section-space);
+  padding-bottom: 60px;
 }
 
 .space-extra,

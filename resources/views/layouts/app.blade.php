@@ -7,8 +7,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Acceuil -Le spécialiste de l'épilation</title>
     <meta name="author" content="Angfuzsoft">
-    <meta name="description" content="Rasm - Nail Salon & Spa Beauty Care">
-    <meta name="keywords" content="Rasm - Nail Salon & Spa Beauty Care">
+    <meta name="description" content="Global Skin">
+    <meta name="keywords" content="Global Skin centre d-épilation définitive à bruxelle">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
@@ -54,93 +54,23 @@
             </div>
             <div class="th-mobile-menu">
                 <ul>
-                    <li class="menu-item-has-children"><a href="index.html">ACCUEIL11</a>
-                        <ul class="sub-menu">
-                            <li><a href="index.html">Spa Message Parlor</a></li>
-                            <li><a href="home-nail-stylist.html">Nail Stylist</a></li>
-                            <li><a href="home-hair-salon.html">Hair Salon</a></li>
-                            <li><a href="home-beauty-salon.html">Beauty Salon</a></li>
-                        </ul>
+                    <li class="menu-item-has-children"><a href="index.html">ACCUEIL1</a>
+
                     </li>
                     <li class="menu-item-has-children"><a href="#">EPILATION LASER</a>
-                        <ul class="sub-menu">
-                            <li><a href="about.html">About One Spa & Nail</a></li>
-                            <li><a href="about-2.html">About Two Salon & Wellness</a></li>
-                        </ul>
+
                     </li>
                     <li class="menu-item-has-children"><a href="#">TECHNOLOGIES</a>
-                        <ul class="sub-menu">
-                            <li><a href="service.html">Services One Spa & Nail</a></li>
-                            <li><a href="service-2.html">Services Two Salon & Wellness</a></li>
-                            <li><a href="service-details.html">Services Details</a></li>
-                        </ul>
+
                     </li>
                     <li class="menu-item-has-children mega-menu-wrap"><a href="#">TARIFS</a>
-                        <ul class="mega-menu">
-                            <li><a href="shop.html">Pagelist 1</a>
-                                <ul>
-                                    <li><a href="index.html">Spa Message Parlor</a></li>
-                                    <li><a href="home-nail-stylist.html">Nail Stylist</a></li>
-                                    <li><a href="home-hair-salon.html">Hair Salon</a></li>
-                                    <li><a href="home-beauty-salon-2.html">Beauty Salon</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Pagelist 2</a>
-                                <ul>
-                                    <li><a href="about.html">About One Spa & Nail</a></li>
-                                    <li><a href="about-2.html">About Two Salon & Wellness</a></li>
-                                    <li><a href="service.html">Services One Spa & Nail</a></li>
-                                    <li><a href="service-2.html">Services Two Salon & Wellness</a></li>
-                                    <li><a href="service-details.html">Services Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Pagelist 3</a>
-                                <ul>
-                                    <li><a href="appointment.html">Appointment</a></li>
-                                    <li><a href="team.html">Team</a></li>
-                                    <li><a href="team-details.html">Team Details</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Pagelist 4</a>
-                                <ul>
-                                    <li><a href="gallery.html">Photo Gallery</a></li>
-                                    <li><a href="price.html">Price Table</a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                    <li><a href="error.html">Error Page</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+
                     </li>
                     <li class="menu-item-has-children"><a href="#">CHÈQUES CADEAUX</a>
-                        <ul class="sub-menu">
-                            <li><a href="shop.html">Shop</a></li>
-                            <li><a href="shop-details.html">Shop Details</a></li>
-                            <li><a href="cart.html">Cart Page</a></li>
-                            <li><a href="checkout.html">Checkout</a></li>
-                            <li><a href="wishlist.html">Wishlist</a></li>
-                        </ul>
+
                     </li>
                     <li class="menu-item-has-children"><a href="#">GALERIE</a>
-                        <ul class="sub-menu">
-                            <li><a href="#">Blog Layout</a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog-grid-2-columns.html">Blog Grid 02 Columns</a></li>
-                                    <li><a href="blog-grid-3-columns.html">Blog Grid 03 Columns</a></li>
-                                    <li><a href="blog-list.html">Blog List</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="blog.html">Blog Sidebar</a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                    <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                    <li><a href="blog.html">Blog No Sidebar</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="blog-details.html">Blog Details</a></li>
-                        </ul>
+
                     </li>
                     <li><a href="contact.html"> À PROPOS</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -251,12 +181,12 @@
         <form action="#"><input type="text" placeholder="What are you looking for?"> <button type="submit"><i
                     class="fal fa-search"></i></button></form>
     </div>
- 
+
 
     @include('layouts.header')
 
     @yield('content')
-   
+
     @include('layouts.footer')
 
     <div class="scroll-top"><svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">

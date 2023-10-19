@@ -41,7 +41,7 @@
                                                             alt="About"></div>
                         <div class="img5 wow fadeInRight"><img class="tilt-active" src="assets/img/normal/about_3_2.jpg"
                                                                alt="About"></div>
-                        <div class="about-shape"><img src="assets/img/normal/about_3_3.jpg" alt="About"></div>
+
                         <div class="about-company-since-wrap">
                             <div class="about-icon"><img src="assets/img/icon/logo-ic.png" alt="img"></div>
                             <div class="about-tag"><span class="about-anime">Global   Skin</span></div>
@@ -59,10 +59,7 @@
                                 Notre technologie de pointe pour l'épilation définitive au laser est le laser Eden Skin, qui est connu pour être l'un des lasers les plus performants du marché. <br>Ce laser utilise une technologie de
                                 refroidissement avancée pour minimiser l'inconfort et la douleur pendant le traitement.</p>
                         </div>
-                        <div class="about-counter">
-                            <div class="th-counterup">
 
-                            </div>
 
                         </div>
                         <div class="btn-group mt-45"><a href="about.html" class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">En savoir +<i
@@ -85,27 +82,26 @@
             src="assets/img/shape/leaves_1.png" alt="shape"></div>
     <div class="shape-mockup jump d-none d-xl-block" data-top="20%" data-right="0%"><img
             src="assets/img/shape/leaves_7.png" alt="shape"></div>
-    <div class="sec-shape"><span class="sec-shape_img"><img src="assets/img/icon/girl.svg" alt=""></span></div>
+    <div class="sec-shape"><span class="sec-shape_img"><img src="assets/img/icon/logo-ic-30.png" alt=""></span></div>
 </section>
 
 <div class="overflow-hidden space">
     <div class="container">
         <div class="row">
             <div class="title-area text-center mb-25">
-                <h2 class="sec-title">Pourquoi vous devriez passer à
+                <h2 class="sec-title">Pourquoi vous devriez passer à<br>
                     l'épilation définitive au laser ?</h2>
             </div>
         </div>
         <div class="row slider-shadow th-carousel" data-slide-show="3" data-lg-slide-show="2" data-sm-slide-show="1"
              data-xs-slide-show="1">
             <div class="col-md-6 col-lg-4">
-                <div class="testi-grid wow fadeInUp">
+                <div class="testi-grid wow fadeInUp" class="testi-grid1">
                     <div class="testi-grid_img"><img src="assets/img/testimonial/testi_2_1.jpg" alt=""></div>
                     <h3 class="box-title">Le traitement laser n'est pas douleureux sans être agréable pour autant mais tout est fait pour
                         le confort et le bien-être sur les zones les plus sensibles !</h3>
 
 
-                    <div class="testi-quote"><img src="assets/img/shape/quote_2.png" alt=""></div>
                     <div class="testi-shape1"><img src="assets/img/shape/leaf_2.svg" alt=""></div>
                     <div class="testi-shape2"><img src="assets/img/shape/flower_1_6.svg" alt=""></div>
                 </div>
@@ -116,7 +112,6 @@
                     <h3 class="box-title">Réalisée dans des conditions d'hygiène irréprochables, cette méthode d'épilation met un terme
                         aux problèmes d'inflammations, d'infections et de démangeaisons !.</h3>
 
-                    <div class="testi-quote"><img src="assets/img/shape/quote_2.png" alt=""></div>
                     <div class="testi-shape1"><img src="assets/img/shape/leaf_2.svg" alt=""></div>
                     <div class="testi-shape2"><img src="assets/img/shape/flower_1_6.svg" alt=""></div>
                 </div>
@@ -126,7 +121,6 @@
                     <div class="testi-grid_img"><img src="assets/img/testimonial/testi_2_3.jpg" alt=""></div>
                     <h3 class="box-title">Terminées les douleurs régulières liées à l'épilation à la cire !</h3>
 
-                    <div class="testi-quote"><img src="assets/img/shape/quote_2.png" alt=""></div>
                     <div class="testi-shape1"><img src="assets/img/shape/leaf_2.svg" alt=""></div>
                     <div class="testi-shape2"><img src="assets/img/shape/flower_1_6.svg" alt=""></div>
                 </div>
@@ -138,7 +132,6 @@
 
                     </h3>
 
-                    <div class="testi-quote"><img src="assets/img/shape/quote_2.png" alt=""></div>
                     <div class="testi-shape1"><img src="assets/img/shape/leaf_2.svg" alt=""></div>
                     <div class="testi-shape2"><img src="assets/img/shape/flower_1_6.svg" alt=""></div>
                 </div>
@@ -151,26 +144,125 @@
     <div class="container">
         <div class="counter-sec space-top">
         </div>
-        <div class="sec-shape"><span class="sec-shape_img"><img src="assets/img/icon/girl.svg" alt=""></span></div>
+        <div class="sec-shape"><span class="sec-shape_img"><img src="assets/img/icon/logo-ic-30.png" alt=""></span></div>
     </div>
+</div>
+
+<div class="position-relative overflow-hidden space">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="testimonial-wrapper wow fadeInUp">
+                    <div class="th-carousel number-dots" data-asnavfor="#testiSlide" id="tesitslide-img" data-slide-show="1" data-dots="true" data-xl-dots="true" data-ml-dots="true" data-lg-dots="true" data-md-dots="true" data-fade="true">
+                        <div>
+                            <div class="testi-slide-img"><img src="assets/img/testimonial/testi_1_1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="testi-slide-img"><img src="assets/img/testimonial/testi_1_2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="testi-slide-img"><img src="assets/img/testimonial/testi_1_3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="testi-slide-img"><img src="assets/img/testimonial/tes_1_4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi-shape"><img src="assets/img/shape/flower_1_5.svg" alt=""></div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInRight">
+                <div class="title-area text-center">
+                    <h2 class="sec-title">Nos traitements</h2></div>
+                <div class="testi-item-slide">
+                    <div class="th-carousel" id="testiSlide" data-slide-show="1" data-fade="true" data-asnavfor=" #tesitslide-img">
+                        <div>
+                            <div class="testi-item">
+                                <div class="testi-item_img"><img src="assets/img/testimonial/testi_1_1.jpg" alt=""></div>
+                                <h4 class="testi-item_name">Epilation lèvre suprieure</h4>
+                                <p>
+                                    Les traitements au laser de la lèvre supérieure présentent de nombreux avantages. Contrairement aux autres méthodes d'épilation, l'épilation au laser élimine définitivement les poils indésirables. Ce traitement est également moins douloureux, plus précis et n'abîme pas votre peau, contrairement au rasage et à l'épilation à la cire.
+                                </p>
+                                <div class="testi-item_profile">
+                                    <div class="media-body mb-3">
+                                        <a href class="testi-item_desig position-relative">Réserver</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="testi-item">
+                                <div class="testi-item_img"><img src="assets/img/testimonial/testi_1_2.jpg" alt="">
+                                </div>
+                                <h4 class="testi-item_name">Epilation maillot</h4>
+                                <p>
+                                    Que vous vous prépariez pour l'été ou que vous souhaitiez une solution à long terme, rapide et économique pour éliminer les poils de la ligne du maillot, un cours d'épilation au laser chez Global Skin pourrait être la réponse.
+                                </p>
+                                <div class="testi-item_profile">
+                                    <div class="media-body"  mb-3>
+
+                                        <a href class="testi-item_desig position-relative">Réserver</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="testi-item">
+                                <div class="testi-item_img"><img src="assets/img/testimonial/testi_1_3.jpg" alt="">
+                                </div>
+                                <h4 class="testi-item_name">Epilation jambes</h4>
+                                <p>
+                                    Les traitements au laser de la lèvre supérieure présentent de nombreux avantages. Contrairement aux autres méthodes d'épilation, l'épilation au laser élimine définitivement les poils indésirables. Ce traitement est également moins douloureux, plus précis et n'abîme pas votre peau, contrairement au rasage et à l'épilation à la cire.
+                                </p>
+                                <div class="testi-item_profile">
+                                    <div class="media-body" mb-3>
+
+                                        <a href="" class="testi-item_desig position-relative">Réserver</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="testi-item">
+                                <div class="testi-item_img"><img src="assets/img/testimonial/tes_1_4.png" alt="">
+                                </div>
+                                <h4 class="testi-item_name">Epilation aisselles</h4>
+                                <p>
+
+                                    L'épilation laser des aisselles est une méthode d'épilation de plus en plus populaire pour les personnes cherchant une solution permanente pour se débarrasser des poils indésirables dans cette zone du corps.
+                                </p>
+                                <div class="testi-item_profile">
+                                    <div class="media-body"  mb-3>
+
+                                        <a href="" class="testi-item_desig position-relative">Réserver</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="testi-shape1"><img src="assets/img/shape/leaf.svg" alt=""></div>
+                    <div class="testi-shape2"><img src="assets/img/shape/flower_1_4.png" alt=""></div>
+                </div>
+            </div>
+    </div>
+
+    <div class="shape-mockup jump d-none d-xxl-block" data-top="30%" data-right="0%"><img
+            src="assets/img/shape/leaves_4.png" alt="shape"></div>
 </div>
 <div class="overflow-hidden space">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-5">
-                <div class="title-area text-center text-lg-start"><span class="sub-title">Our Gallery <img
+            <div class="col-lg-12">
+                <div class="title-area text-center text-lg-start"><span class="sub-title">GLOBAL SKIN<img
                             src="assets/img/theme-img/title_right.svg" alt=""></span>
-                    <h2 class="sec-title">Latest Projects Gallery</h2>
+                    <h2 class="sec-title">Explorez notre centre d'épilation laser</h2>
                 </div>
             </div>
-            <div class="col-lg-7">
-                <div class="filter-menu indicator-active filter-menu-active"><button data-filter="*"
-                                                                                     class="tab-btn active" type="button">ALL</button> <button data-filter=".cat1"
-                                                                                                                                               class="tab-btn" type="button">Massage</button> <button data-filter=".cat2" class="tab-btn"
-                                                                                                                                                                                                      type="button">Waxing</button> <button data-filter=".cat3" class="tab-btn"
-                                                                                                                                                                                                                                            type="button">Relaxing</button> <button data-filter=".cat4" class="tab-btn"
-                                                                                                                                                                                                                                                                                    type="button">Skin Care</button></div>
-            </div>
+
         </div>
         <div class="row gallery-row filter-active">
             <div class="col-xl-auto col-md-6 filter-item cat1 cat3 cat4">
@@ -179,8 +271,7 @@
                     </div>
                     <div class="gallery-content"><a href="assets/img/gallery/gallery_1_1.jpg"
                                                     class="icon-btn popup-image"><i class="fa-solid fa-arrow-up-right"></i></a>
-                        <h2 class="gallery-title box-title">Body Massage</h2>
-                        <p class="gallery-text">Massage</p>
+
                     </div>
                 </div>
             </div>
@@ -190,8 +281,7 @@
                     </div>
                     <div class="gallery-content"><a href="assets/img/gallery/gallery_1_2.jpg"
                                                     class="icon-btn popup-image"><i class="fa-solid fa-arrow-up-right"></i></a>
-                        <h2 class="gallery-title box-title">Body Waxing</h2>
-                        <p class="gallery-text">Waxing</p>
+
                     </div>
                 </div>
             </div>
@@ -201,8 +291,7 @@
                     </div>
                     <div class="gallery-content"><a href="assets/img/gallery/gallery_1_3.jpg"
                                                     class="icon-btn popup-image"><i class="fa-solid fa-arrow-up-right"></i></a>
-                        <h2 class="gallery-title box-title">Body Relaxing</h2>
-                        <p class="gallery-text">Relaxing</p>
+
                     </div>
                 </div>
             </div>
@@ -212,8 +301,7 @@
                     </div>
                     <div class="gallery-content"><a href="assets/img/gallery/gallery_1_4.jpg"
                                                     class="icon-btn popup-image"><i class="fa-solid fa-arrow-up-right"></i></a>
-                        <h2 class="gallery-title box-title">Skin Care</h2>
-                        <p class="gallery-text">Skin Care</p>
+
                     </div>
                 </div>
             </div>
@@ -224,6 +312,7 @@
     <div class="shape-mockup jump d-none d-xxl-block" data-top="10%" data-right="0%"><img
             src="assets/img/shape/leaves_7.png" alt="shape"></div>
 </div>
+
 <section class="team-area bg-top-center overflow-hidden space" data-bg-src="assets/img/bg/team_bg_1.jpg">
     <div class="container">
         <div class="row justify-content-end">
@@ -523,7 +612,8 @@
     <div class="shape-mockup jump d-none d-xxl-block" data-top="30%" data-right="0%"><img
             src="assets/img/shape/leaves_4.png" alt="shape"></div>
 </div>
-<div class="sec-shape"><span class="sec-shape_img"><img src="assets/img/icon/girl.svg" alt=""></span></div>
+<div class="sec-shape"><span class="sec-shape_img"><img src="assets/img/icon/logo-ic-30.png
+" alt=""></span></div>
 <section class="space overflow-hidden" id="blog-sec">
     <div class="container">
         <div class="title-area text-center"><span class="sub-title style2">Our Blog</span> <img

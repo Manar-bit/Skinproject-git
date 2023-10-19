@@ -13494,7 +13494,7 @@ span.select2-selection.select2-selection--single:focus {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background: var(--smoke-color);
+  background: #fbf4dd;
   width: 90px;
   height: 90px;
   line-height: 90px;
@@ -16136,7 +16136,8 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .testi-item_name {
-  margin-bottom: 5px;
+  margin-bottom: 27px;
+    text-align: left;
 }
 
 .testi-item_desig {
@@ -17075,7 +17076,7 @@ span.select2-selection.select2-selection--single:focus {
   position: relative;
   width: 60px;
   height: 60px;
-  background-color: var(--theme-color);
+  background-color: #eed9b1;
   border-radius: 50%;
   padding: 5px;
   display: block;
@@ -23611,7 +23612,8 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .mt-45 {
-  margin-top: 45px;
+  margin-top: 76px;
+    margin-left: 22px;
 }
 
 .mt-50 {
@@ -23844,6 +23846,7 @@ span.select2-selection.select2-selection--single:focus {
 .space,
 .space-top {
   padding-top: 40px;
+    padding-bottom: 10px;
 }
 
 .space,
@@ -23914,6 +23917,29 @@ span.select2-selection.select2-selection--single:focus {
     z-index: -1;
     background: black;
 
+}
+.testi-grid, .testi-grid1{
+    min-height: 318px;
+}
+
+ .testi-item_desig:hover:after{
+     opacity: 1;
+     visibility: visible;
+ }
+ .testi-item_desig:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5.25rem;
+    height: 2.5rem;
+    margin-top: -0.375rem;
+    -webkit-mask: url("../img/menu_item_hover.svg") no-repeat;
+    background-color:white;
+    transition: all .5s ease;
+    z-index: -1;
+     opacity: 0;
+     visibility: hidden;
 }
 
 

@@ -16392,8 +16392,8 @@ span.select2-selection.select2-selection--single:focus {
 
 .testi-box_content {
   position: relative;
-  max-width: 609px;
-  padding: 120px 0;
+  max-width: 566px;
+  padding: 50px 0;
   /* Medium Large devices */
   /* Medium devices */
   /* Extra small devices */
@@ -21455,7 +21455,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .appointment-content {
-  max-width: 491px;
+  max-width: 666px;
   /* Medium devices */
 }
 
@@ -23940,6 +23940,33 @@ span.select2-selection.select2-selection--single:focus {
     z-index: -1;
      opacity: 0;
      visibility: hidden;
+}
+.bg-trans {
+    background: #faebd738;
+    padding: 30px;
+}
+.text-shadow-white {
+    color: white;
+    text-shadow: 1px 1px 2px #2a2123;
+}
+.content-element-6 {
+    margin-bottom: 3rem;
+    font-size: 18px;
+}
+.mad-list--icon > li > .icon, .mad-list-content > ul:not(.mad-list--icon):not(.mad-list--unstyled) > li::before {
+    position: absolute;
+    left: 1px;
+    top: 0;
+    line-height: 1.5rem;
+}
+.testi-box-slide , .testi-box1{
+    width: 1504px;
+    position: relative;
+    left: 139px;
+    top: 88px;
+    z-index: 999;
+    opacity: 1;
+
 }
 
 

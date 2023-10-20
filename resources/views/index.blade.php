@@ -253,6 +253,137 @@
     <div class="shape-mockup jump d-none d-xxl-block" data-top="30%" data-right="0%"><img
             src="assets/img/shape/leaves_4.png" alt="shape"></div>
 </div>
+
+</div>
+    <div class="appointment-area space" id="contact-sec" data-bg-src="assets/img/bg/appointment_bg_1.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 col-sm-9 bg-trans">
+                    <div class="appointment-content">
+                        <div class="title-area mb-25 text-center text-lg-start wow fadeInLeft"><span
+                                class="sub-title">L'ÉPILATION LASER</span>
+                            <h2 class="sec-title text-shadow-white">Une méthode sûre et efficace <br>pour toutes les peaux </h2>
+                        </div>
+
+
+
+                        <p class="mad-text-medium content-element-6 text-shadow-white">L'épilation au laser est une solution pour éliminer les poils indésirables et peut convenir à tout le monde. Cependant, lors d'une séance d'épilation au laser, certains éléments sont pris en compte tels que le type de peau et la couleur des poils pour adapter le traitement en conséquence. Le choix du laser utilisé et le nombre de séances nécessaires peuvent varier en fonction de ces facteurs. Ainsi, il est important de déterminer le type de peau et la couleur des poils avant de choisir le laser le plus approprié pour obtenir les meilleurs résultats possibles. Nous sommes là pour vous guider tout au long de ce processus afin que vous puissiez obtenir
+                            une épilation au laser efficace et sécurisée.</p>
+                        <div class="btn-group justify-content-center justify-content-lg-start"><button
+                                class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">Contactez-nous </button></div>
+
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+<section class="testimonial-sec overflow-hidden">
+    <div class="container th-container" >
+        <div class="testi-area">
+            <div class="row">
+                <div class="col-12">
+                    <div class="testi-box-slide th-carousel" class="testi-box1" data-fade="true" data-slide-show="1">
+                        <div>
+                            <div class="testi-box style2">
+                                <div class="testi-box_img"><img src="assets/img/testimonial/testi_3_1.jpg"
+                                                                alt="Avater">
+
+                                </div>
+                                <div class="testi-box_content wow fadeInUp">
+                                    <div class="title-area mb-25">
+                                        <h2 class="sec-title">Le laser Eden Skin</h2>
+                                    </div>
+                                    <p class="testi-box_text">La machine LASERSKIN est utilisée pour l’épilation définitive sur tous types de peaux, même foncées. Sa technologie à la pointe permet :</p>
+                                    <ul class="mad-list--icon">
+                                        <li><b> Un soin indolore : </b>
+                                            grâce à la technologie « Permanent Pulse » qui permet un balayage continu et au cristal réfrigéré
+                                            (-10°C)  qui évite une surchauffe de la peau.
+                                            <i class="icon material-icons">keyboard_arrow_right</i></li>
+                                        <li><b> Un soin rapide :</b> 10 minutes à 30 minutes pour les zones étendues comme les jambes, le torse, le dos.
+                                            <i class="icon material-icons">keyboard_arrow_right</i></li>
+                                        <li><b> Un soin efficace </b>dès la première séance d’épilation.4
+                                            <i class="icon material-icons">keyboard_arrow_right</i></li> <li><b>Des résultats durables :</b> résultats définitifs après 4 à 6 séances. <i class="icon material-icons">keyboard_arrow_right</i></li></ul>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+
+
+<div class="choose-area overflow-hidden space-bottom">
+    <div class="container">
+        <div class="row align-items-end">
+            <div class="col-lg-7">
+                <div class="pe-xl-5 me-xl-3">
+                    <div class="title-area mt-60 mb-25 wow fadeInLeft"><span class="sub-title">Why Choose Us<img
+                                src="assets/img/theme-img/title_right.svg" alt=""></span>
+                        <h2 class="sec-title">We Have 25 Years Of Experience With Nail Style.</h2>
+                        <p class="mt-n2 mb-35">We prioritize the cleanliness and comfort of our clients, ensuring a
+                            hygienic and relaxing environment throughout your visit. Our salon adheres to strict
+                            sanitization protocols, and all our tools.</p>
+                    </div>
+                    <div class="choose-about-wrap">
+                        <div class="choose-about wow fadeInUp">
+                            <div class="choose-about_icon"><img src="assets/img/icon/choose_1.svg" alt="image">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="box-title">Brand Nail Art Equipment</h3>
+                                <p class="choose-about_text">From classic manicures and pedicures to intricate nail
+                                    art and personalized nail extensions</p>
+                            </div>
+                        </div>
+                        <div class="choose-about wow fadeInUp">
+                            <div class="choose-about_icon"><img src="assets/img/icon/choose_2.svg" alt="image">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="box-title">Best Place</h3>
+                                <p class="choose-about_text">That's why we only use premium quality nail polishes,
+                                    gel, and other nail products from trusted brands.</p>
+                            </div>
+                        </div>
+                        <div class="choose-about wow fadeInUp">
+                            <div class="choose-about_icon"><img src="assets/img/icon/choose_3.svg" alt="image">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="box-title">Special Support</h3>
+                                <p class="choose-about_text">That's why we only use premium quality nail polishes,
+                                    gel, and other nail products from trusted brands.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="choose-image">
+                    <div class="img1 wow fadeInRight"><img src="assets/img/normal/choose_1.png" alt="Choose"></div>
+                    <div class="img2 movingX"><img src="assets/img/shape/flower_1_3.png" alt="image"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 <div class="overflow-hidden space">
     <div class="container">
         <div class="row align-items-center">

@@ -5,7 +5,7 @@
                     <div class="col-md-6 col-xl-3">
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
-                                <div class="about-logo"><a href="index.html"><img src="assets/img/logo-white.svg"
+                                <div class="about-logo"><a href="index.html"><img src="assets/img/logo-wh-1.png"
                                             alt="Rasm"></a></div>
                                 <p class="about-text">Centric applications productize front end portals visualize front
                                     end is results and value added</p>

@@ -31,7 +31,7 @@
                     <div class="col-auto me-xl-auto">
                         <nav class="main-menu d-none d-lg-inline-block">
                             <ul>
-                                <li ><a href="index.html">ACCEUIL</a>
+                                <li ><a href="{{route('index')}}">ACCEUIL</a>
 
                                 </li>
                                 <li ><a href="#">EPILATION LASER</a>
@@ -40,7 +40,7 @@
                                 <li ><a href="#">TECHNOLOGIES</a>
 
                                 </li>
-                                <li ><a href="#">TARIFS</a>
+                                <li ><a href="{{route('tarifs')}}">TARIFS</a>
 
                                 </li>
                                 <li ><a href="#">CHEQUES CADEAUX</a>
@@ -48,7 +48,7 @@
                                 <li ><a href="#">GALERIE</a>
                                 </li>
                                 <li><a href="contact.html">A PROPOS </a></li>
-                                <li><a href="contact.html">Contact </a></li>
+                                <li><a href="{{route('contact')}}">Contact </a></li>
                             </ul>
                         </nav><button class="th-menu-toggle d-inline-block d-lg-none"><i
                                 class="far fa-bars"></i></button>

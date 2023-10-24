@@ -15,4 +15,8 @@ use App\Http\Controllers\IndexController;
 */
 
 
-Route::get('/',[IndexController::class ,'index']);
+Route::get('/',[IndexController::class ,'index'])->name('index');
+Route::get('contact',[IndexController::class ,'contact'])->name('contact');
+Route::get('tarifs',[IndexController::class ,'tarifs'])->name('tarifs');
+
+

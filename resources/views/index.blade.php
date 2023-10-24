@@ -281,6 +281,30 @@
 
 
 
+<div class="choose-area overflow-hidden space-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="pe-xl-5 me-xl-3">
+                    <div class="title-area mt-60 mb-25 wow fadeInLeft" style="text-align: center;"><span class="sub-title">GLOBAL SKIN</span>
+                        <h2 class="sec-title">Laser de dernière génération</h2>
+                        <p class="mt-n2 mb-35">Notre laser de dernière génération permet d’épiler en toute sécurité et de façon précise tous
+                            les types de peau, notamment les peaux mates, noires, foncées et même bronzées..</p>
+                        <button
+                            class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">Contactez-nous </button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="choose-image">
+                    <div class="img1 wow fadeInRight"><img src="assets/img/normal/choose_1.png" alt="Choose"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -289,98 +313,118 @@
 
 
 <section class="testimonial-sec overflow-hidden">
-    <div class="container th-container" >
+    <div class="container th-container">
         <div class="testi-area">
             <div class="row">
                 <div class="col-12">
-                    <div class="testi-box-slide th-carousel" class="testi-box1" data-fade="true" data-slide-show="1">
+                    <div class="testi-box-slide th-carousel" data-fade="true" data-slide-show="1">
                         <div>
                             <div class="testi-box style2">
-                                <div class="testi-box_img"><img src="assets/img/testimonial/testi_3_1.jpg"
-                                                                alt="Avater">
-
+                                <div class="testi-box_img"><img src="assets/img/testimonial/testi_3_1.jpg" alt="Avater">
+                                    <div class="testi-quote_img"><img src="assets/img/shape/quote_4.png" alt=""></div>
                                 </div>
                                 <div class="testi-box_content wow fadeInUp">
-                                    <div class="title-area mb-25">
-                                        <h2 class="sec-title">Le laser Eden Skin</h2>
-                                    </div>
-                                    <p class="testi-box_text">La machine LASERSKIN est utilisée pour l’épilation définitive sur tous types de peaux, même foncées. Sa technologie à la pointe permet :</p>
-                                    <ul class="mad-list--icon">
-                                        <li><b> Un soin indolore : </b>
-                                            grâce à la technologie « Permanent Pulse » qui permet un balayage continu et au cristal réfrigéré
-                                            (-10°C)  qui évite une surchauffe de la peau.
-                                            <i class="icon material-icons">keyboard_arrow_right</i></li>
-                                        <li><b> Un soin rapide :</b> 10 minutes à 30 minutes pour les zones étendues comme les jambes, le torse, le dos.
-                                            <i class="icon material-icons">keyboard_arrow_right</i></li>
-                                        <li><b> Un soin efficace </b>dès la première séance d’épilation.4
-                                            <i class="icon material-icons">keyboard_arrow_right</i></li> <li><b>Des résultats durables :</b> résultats définitifs après 4 à 6 séances. <i class="icon material-icons">keyboard_arrow_right</i></li></ul>
+                                    <div class="title-area mb-25"><span class="sub-title">Testimonials<img
+                                                src="assets/img/theme-img/title_right.svg" alt=""></span>
+                                        <h2 class="sec-title">Our Customer Feedback</h2></div>
+                                    <p class="testi-box_text">Whether it's a simple trim or a complete makeover, our
+                                        stylists approach every haircut with meticulous attention to detail. We use
+                                        professional tools and techniques to ensure clean lines and a precise cut that
+                                        creates a polished and well-groomed look.</p>
+                                    <h3 class="testi-box_name">Angelina Margret</h3><span class="testi-box_desig">Customer</span>
+                                    <div class="testi-quote"><img src="assets/img/shape/quote_3.png" alt=""></div>
                                 </div>
+                                <div class="shape-mockup d-none d-xl-block" data-bottom="0%" data-right="0%"><img
+                                        src="assets/img/shape/flower_1_8.png" alt="shape"></div>
                             </div>
-
-
                         </div>
-
+                        <div>
+                            <div class="testi-box style2">
+                                <div class="testi-box_img"><img src="assets/img/testimonial/testi_3_2.jpg" alt="Avater">
+                                    <div class="testi-quote_img"><img src="assets/img/shape/quote_4.png" alt=""></div>
+                                </div>
+                                <div class="testi-box_content wow fadeInUp">
+                                    <div class="title-area mb-25"><span class="sub-title">Testimonials<img
+                                                src="assets/img/theme-img/title_right.svg" alt=""></span>
+                                        <h2 class="sec-title">Our Customer Feedback</h2></div>
+                                    <p class="testi-box_text">Whether it's a simple trim or a complete makeover, our
+                                        stylists approach every haircut with meticulous attention to detail. We use
+                                        professional tools and techniques to ensure clean lines and a precise cut that
+                                        creates a polished and well-groomed look.</p>
+                                    <h3 class="testi-box_name">Senjuti das</h3><span
+                                        class="testi-box_desig">Customer</span>
+                                    <div class="testi-quote"><img src="assets/img/shape/quote_3.png" alt=""></div>
+                                </div>
+                                <div class="shape-mockup d-none d-xl-block" data-bottom="0%" data-right="0%"><img
+                                        src="assets/img/shape/flower_1_8.png" alt="shape"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="testi-box style2">
+                                <div class="testi-box_img"><img src="assets/img/testimonial/testi_3_3.jpg" alt="Avater">
+                                    <div class="testi-quote_img"><img src="assets/img/shape/quote_4.png" alt=""></div>
+                                </div>
+                                <div class="testi-box_content wow fadeInUp">
+                                    <div class="title-area mb-25"><span class="sub-title">Testimonials<img
+                                                src="assets/img/theme-img/title_right.svg" alt=""></span>
+                                        <h2 class="sec-title">Our Customer Feedback</h2></div>
+                                    <p class="testi-box_text">Whether it's a simple trim or a complete makeover, our
+                                        stylists approach every haircut with meticulous attention to detail. We use
+                                        professional tools and techniques to ensure clean lines and a precise cut that
+                                        creates a polished and well-groomed look.</p>
+                                    <h3 class="testi-box_name">Jenifer Lopez</h3><span
+                                        class="testi-box_desig">Customer</span>
+                                    <div class="testi-quote"><img src="assets/img/shape/quote_3.png" alt=""></div>
+                                </div>
+                                <div class="shape-mockup d-none d-xl-block" data-bottom="0%" data-right="0%"><img
+                                        src="assets/img/shape/flower_1_8.png" alt="shape"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="testi-box style2">
+                                <div class="testi-box_img"><img src="assets/img/testimonial/testi_3_4.jpg" alt="Avater">
+                                    <div class="testi-quote_img"><img src="assets/img/shape/quote_4.png" alt=""></div>
+                                </div>
+                                <div class="testi-box_content wow fadeInUp">
+                                    <div class="title-area mb-25"><span class="sub-title">Testimonials<img
+                                                src="assets/img/theme-img/title_right.svg" alt=""></span>
+                                        <h2 class="sec-title">Our Customer Feedback</h2></div>
+                                    <p class="testi-box_text">Whether it's a simple trim or a complete makeover, our
+                                        stylists approach every haircut with meticulous attention to detail. We use
+                                        professional tools and techniques to ensure clean lines and a precise cut that
+                                        creates a polished and well-groomed look.</p>
+                                    <h3 class="testi-box_name">Dianne Russell</h3><span
+                                        class="testi-box_desig">Customer</span>
+                                    <div class="testi-quote"><img src="assets/img/shape/quote_3.png" alt=""></div>
+                                </div>
+                                <div class="shape-mockup d-none d-xl-block" data-bottom="0%" data-right="0%"><img
+                                        src="assets/img/shape/flower_1_8.png" alt="shape"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi-box-tab wow fadeInUp" data-asnavfor=".testi-box-slide">
+                        <button class="tab-btn active" type="button"><img src="assets/img/testimonial/testi_3_1.jpg"
+                                                                          alt="tab-btn image"></button>
+                        <button class="tab-btn" type="button"><img src="assets/img/testimonial/testi_3_2.jpg"
+                                                                   alt="tab-btn image"></button>
+                        <button class="tab-btn" type="button"><img src="assets/img/testimonial/testi_3_3.jpg"
+                                                                   alt="tab-btn image"></button>
+                        <button class="tab-btn" type="button"><img src="assets/img/testimonial/testi_3_4.jpg"
+                                                                   alt="tab-btn image"></button>
+                        <div class="icon-box">
+                            <button data-slick-next="#testiSlide4" class="slick-arrow default"><i
+                                    class="far fa-arrow-right"></i></button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 </section>
 
 
 
 
-<div class="choose-area overflow-hidden space-bottom">
-    <div class="container">
-        <div class="row align-items-end">
-            <div class="col-lg-7">
-                <div class="pe-xl-5 me-xl-3">
-                    <div class="title-area mt-60 mb-25 wow fadeInLeft"><span class="sub-title">Why Choose Us<img
-                                src="assets/img/theme-img/title_right.svg" alt=""></span>
-                        <h2 class="sec-title">We Have 25 Years Of Experience With Nail Style.</h2>
-                        <p class="mt-n2 mb-35">We prioritize the cleanliness and comfort of our clients, ensuring a
-                            hygienic and relaxing environment throughout your visit. Our salon adheres to strict
-                            sanitization protocols, and all our tools.</p>
-                    </div>
-                    <div class="choose-about-wrap">
-                        <div class="choose-about wow fadeInUp">
-                            <div class="choose-about_icon"><img src="assets/img/icon/choose_1.svg" alt="image">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="box-title">Brand Nail Art Equipment</h3>
-                                <p class="choose-about_text">From classic manicures and pedicures to intricate nail
-                                    art and personalized nail extensions</p>
-                            </div>
-                        </div>
-                        <div class="choose-about wow fadeInUp">
-                            <div class="choose-about_icon"><img src="assets/img/icon/choose_2.svg" alt="image">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="box-title">Best Place</h3>
-                                <p class="choose-about_text">That's why we only use premium quality nail polishes,
-                                    gel, and other nail products from trusted brands.</p>
-                            </div>
-                        </div>
-                        <div class="choose-about wow fadeInUp">
-                            <div class="choose-about_icon"><img src="assets/img/icon/choose_3.svg" alt="image">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="box-title">Special Support</h3>
-                                <p class="choose-about_text">That's why we only use premium quality nail polishes,
-                                    gel, and other nail products from trusted brands.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5">
-                <div class="choose-image">
-                    <div class="img1 wow fadeInRight"><img src="assets/img/normal/choose_1.png" alt="Choose"></div>
-                    <div class="img2 movingX"><img src="assets/img/shape/flower_1_3.png" alt="image"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
@@ -444,431 +488,4 @@
             src="assets/img/shape/leaves_7.png" alt="shape"></div>
 </div>
 
-<section class="team-area bg-top-center overflow-hidden space" data-bg-src="assets/img/bg/team_bg_1.jpg">
-    <div class="container">
-        <div class="row justify-content-end">
-            <div class="col-12">
-                <div class="team-content-wrapper">
-                    <div class="title-area text-center"><span class="sub-title style2">Expert Team</span> <img
-                            src="assets/img/theme-img/title_shape_1.svg" alt="">
-                        <h2 class="sec-title text-white">Our Experience Specialists</h2>
-                        <p class="sec-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                            officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row slider-shadow th-carousel teamSlide1" id="teamSlide1" data-slide-show="3"
-             data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1"
-             data-arrows="true">
-            <div class="col-sm-6 col-lg-4 col-xxl-3">
-                <div class="th-team team-card wow fadeInUp">
-                    <div class="team-img"><img src="assets/img/team/team_1_1.jpg" alt="Team"></div>
-                    <div class="team-card_content">
-                        <div class="team-content">
-                            <h3 class="box-title"><a href="team-details.html">Jenifer Lopez</a></h3><span
-                                class="team-desig">Specialist</span>
-                        </div>
-                        <div class="team-social">
-                            <div class="icon-btn"><i class="fa-light fa-plus"></i></div>
-                            <div class="th-social"><a target="_blank" href="https://twitter.com/"><i
-                                        class="fab fa-twitter"></i></a> <a target="_blank"
-                                                                           href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a> <a
-                                    target="_blank" href="https://facebook.com/"><i
-                                        class="fab fa-facebook-f"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 col-xxl-3">
-                <div class="th-team team-card wow fadeInDown">
-                    <div class="team-img"><img src="assets/img/team/team_1_2.jpg" alt="Team"></div>
-                    <div class="team-card_content">
-                        <div class="team-content">
-                            <h3 class="box-title"><a href="team-details.html">Arlene McCoy</a></h3><span
-                                class="team-desig">Specialist</span>
-                        </div>
-                        <div class="team-social">
-                            <div class="icon-btn"><i class="fa-light fa-plus"></i></div>
-                            <div class="th-social"><a target="_blank" href="https://twitter.com/"><i
-                                        class="fab fa-twitter"></i></a> <a target="_blank"
-                                                                           href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a> <a
-                                    target="_blank" href="https://facebook.com/"><i
-                                        class="fab fa-facebook-f"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 col-xxl-3">
-                <div class="th-team team-card wow fadeInUp">
-                    <div class="team-img"><img src="assets/img/team/team_1_3.jpg" alt="Team"></div>
-                    <div class="team-card_content">
-                        <div class="team-content">
-                            <h3 class="box-title"><a href="team-details.html">Robert Fox</a></h3><span
-                                class="team-desig">Specialist</span>
-                        </div>
-                        <div class="team-social">
-                            <div class="icon-btn"><i class="fa-light fa-plus"></i></div>
-                            <div class="th-social"><a target="_blank" href="https://twitter.com/"><i
-                                        class="fab fa-twitter"></i></a> <a target="_blank"
-                                                                           href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a> <a
-                                    target="_blank" href="https://facebook.com/"><i
-                                        class="fab fa-facebook-f"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4 col-xxl-3">
-                <div class="th-team team-card wow fadeInDown">
-                    <div class="team-img"><img src="assets/img/team/team_1_4.jpg" alt="Team"></div>
-                    <div class="team-card_content">
-                        <div class="team-content">
-                            <h3 class="box-title"><a href="team-details.html">Jade Smith</a></h3><span
-                                class="team-desig">Specialist</span>
-                        </div>
-                        <div class="team-social">
-                            <div class="icon-btn"><i class="fa-light fa-plus"></i></div>
-                            <div class="th-social"><a target="_blank" href="https://twitter.com/"><i
-                                        class="fab fa-twitter"></i></a> <a target="_blank"
-                                                                           href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a> <a
-                                    target="_blank" href="https://facebook.com/"><i
-                                        class="fab fa-facebook-f"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="shape-mockup" data-top="0%" data-right="0%"><img src="assets/img/shape/flower_1_2.png" alt="shape">
-    </div>
-</section>
-<section class="overflow-hidden space-bottom">
-    <div class="container">
-        <div class="title-area text-center"><span class="sub-title style2">Pricing Package</span> <img
-                src="assets/img/theme-img/title_shape_1.svg" alt="">
-            <h2 class="sec-title">Choose Your Perfect Package</h2>
-        </div>
-        <div class="row gy-4 align-items-center">
-            <div class="col-xl-6">
-                <div class="price-card wow fadeInLeft">
-                    <div class="price-card_img"><img src="assets/img/price/price_1_1.jpg" alt="">
-                        <h4 class="price-card_price"><span class="currency">$</span> 46 <span class="duration">Per
-                                    Day</span></h4>
-                    </div>
-                    <div class="price-card_content">
-                        <h3 class="box-title">Basic Package</h3>
-                        <hr class="style1">
-                        <div class="available-list">
-                            <ul>
-                                <li><img src="assets/img/theme-img/title_left.svg" alt="">Body Treatments</li>
-                                <li><img src="assets/img/theme-img/title_left.svg" alt="">Sauna Relax</li>
-                                <li><img src="assets/img/theme-img/title_left.svg" alt="">Backbone Therapy</li>
-                                <li><img src="assets/img/theme-img/title_left.svg" alt="">Geothermal Spa</li>
-                                <li class="unavailable"><img src="assets/img/theme-img/title_left.svg" alt="">Body
-                                    Relaxation</li>
-                                <li class="unavailable"><img src="assets/img/theme-img/title_left.svg" alt="">Aroma
-                                    Therapy</li>
-                            </ul>
-                            <div class="price-btn"><a href="price.html" class="th-btn">Book Now<i
-                                        class="fa-solid fa-arrow-right ms-2"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6">
-                <div class="price-card wow fadeInRight">
-                    <div class="price-card_img"><img src="assets/img/price/price_1_2.jpg" alt="">
-                        <h4 class="price-card_price"><span class="currency">$</span> 96 <span class="duration">Per
-                                    Day</span></h4>
-                    </div>
-                    <div class="price-card_content">
-                        <h3 class="box-title">Standard Package</h3>
-                        <hr class="style1">
-                        <div class="available-list">
-                            <ul>
-                                <li><img src="assets/img/theme-img/title_left.svg" alt="">Body Treatments</li>
-                                <li><img src="assets/img/theme-img/title_left.svg" alt="">Sauna Relax</li>
-                                <li><img src="assets/img/theme-img/title_left.svg" alt="">Backbone Therapy</li>
-                                <li><img src="assets/img/theme-img/title_left.svg" alt="">Geothermal Spa</li>
-                                <li><img src="assets/img/theme-img/title_left.svg" alt="">Body Relaxation</li>
-                                <li><img src="assets/img/theme-img/title_left.svg" alt="">Aroma Therapy</li>
-                            </ul>
-                            <div class="price-btn"><a href="price.html" class="th-btn">Book Now<i
-                                        class="fa-solid fa-arrow-right ms-2"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="shape-mockup jump d-none d-lg-block" data-top="0%" data-left="0%"><img
-            src="assets/img/shape/leaves_3.png" alt="shape"></div>
-    <div class="shape-mockup jump d-none d-xl-block" data-bottom="15%" data-right="0%"><img
-            src="assets/img/shape/leaves_2.png" alt="shape"></div>
-</section>
-<div class="appointment-area space" id="contact-sec" data-bg-src="assets/img/bg/appointment_bg_1.jpg">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="appointment-content">
-                    <div class="title-area mb-25 text-center text-lg-start wow fadeInLeft"><span
-                            class="sub-title">Make An Appointment<img src="assets/img/theme-img/title_right.svg"
-                                                                      alt=""></span>
-                        <h2 class="sec-title">Relax Anytime Any Day At 20% Discount</h2>
-                    </div>
-                    <div class="appointment-form wow fadeInUp">
-                        <div class="row">
-                            <div class="form-group col-md-6"><i class="fa-light fa-user"></i> <input type="text"
-                                                                                                     placeholder="First Name" class="form-control"></div>
-                            <div class="form-group col-md-6"><i class="fa-light fa-user"></i> <input type="text"
-                                                                                                     placeholder="Last Name" class="form-control"></div>
-                            <div class="form-group col-md-6"><i class="fa-light fa-envelope"></i> <input type="text"
-                                                                                                         placeholder="Email" class="form-control"></div>
-                            <div class="col-md-6 form-group"><i class="fa-light fa-phone"></i> <input type="text"
-                                                                                                      placeholder="phone" class="form-control"></div>
-                            <div class="form-group col-12"><i class="fa-regular fa-tag"></i> <select name="subject"
-                                                                                                     id="subject" class="form-select nice-select">
-                                    <option value="" disabled="disabled" selected="selected" hidden>Select Subject
-                                    </option>
-                                    <option value="Engine Diagnostics">Spa & Massage</option>
-                                    <option value="Facial & Massage">Facial & Massage</option>
-                                    <option value="Engine Diagnostics">Head Massage</option>
-                                    <option value="Sports Massage">Sports Massage</option>
-                                    <option value="Stone Massage">Stone Massage</option>
-                                </select></div>
-                            <div class="form-group col-12"><input type="text" class="date-pick form-control"
-                                                                  name="date" id="date-pick" placeholder="Select Date"> <i
-                                    class="fa-light fa-calendar-days"></i></div>
-                            <div class="form-group col-12"><input type="text" class="time-pick form-control"
-                                                                  name="time" id="time-pick" placeholder="Select Time"> <i
-                                    class="fa-light fa-clock"></i></div>
-                            <div class="btn-group justify-content-center justify-content-lg-start"><button
-                                    class="th-btn">Make An Appointment <i
-                                        class="fa-solid fa-arrow-right ms-2"></i></button></div>
-                        </div>
-                    </div>
-                    <div class="appointment-video"><a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
-                                                      class="video-play-btn play-btn popup-video"><i
-                                class="fa-sharp fa-solid fa-play"></i></a></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="position-relative overflow-hidden space">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="testimonial-wrapper wow fadeInUp">
-                    <div class="th-carousel number-dots" data-asnavfor="#testiSlide" id="tesitslide-img"
-                         data-slide-show="1" data-dots="true" data-xl-dots="true" data-ml-dots="true"
-                         data-lg-dots="true" data-md-dots="true" data-fade="true">
-                        <div>
-                            <div class="testi-slide-img"><img src="assets/img/testimonial/testi_1_1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div>
-                            <div class="testi-slide-img"><img src="assets/img/testimonial/testi_1_2.jpg" alt="">
-                            </div>
-                        </div>
-                        <div>
-                            <div class="testi-slide-img"><img src="assets/img/testimonial/testi_1_3.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testi-shape"><img src="assets/img/shape/flower_1_5.svg" alt=""></div>
-                </div>
-            </div>
-            <div class="col-lg-6 wow fadeInRight">
-                <div class="title-area text-center"><span class="sub-title style2">Tegh</span> <img
-                        src="assets/img/theme-img/title_shape_1.svg" alt="">
-                    <h2 class="sec-title">Our Customer Feedback</h2>
-                </div>
-                <div class="testi-item-slide">
-                    <div class="th-carousel" id="testiSlide" data-slide-show="1" data-fade="true"
-                         data-asnavfor=" #tesitslide-img">
-                        <div>
-                            <div class="testi-item">
-                                <div class="testi-item_img"><img src="assets/img/testimonial/testi_1_1.jpg" alt="">
-                                </div>
-                                <h3 class="box-title">Whether youre preparing for a special occasion or simply want
-                                    to pamper yourself, our talented stylists will work closely with you to create a
-                                    look that complements your individual style.</h3>
-                                <div class="testi-item_profile">
-                                    <div class="media-body">
-                                        <h4 class="testi-item_name">Angelina Margret</h4>
-                                        <p class="testi-item_desig">Customer</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="testi-item">
-                                <div class="testi-item_img"><img src="assets/img/testimonial/testi_1_2.jpg" alt="">
-                                </div>
-                                <h3 class="box-title">Donec sollicitudin molestie malesuada. Curabitur non nulla sit
-                                    amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis
-                                    porttitor volutpat. Curabitur dui posuere.</h3>
-                                <div class="testi-item_profile">
-                                    <div class="media-body">
-                                        <h4 class="testi-item_name">Senjuti das</h4>
-                                        <p class="testi-item_desig">Customer</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="testi-item">
-                                <div class="testi-item_img"><img src="assets/img/testimonial/testi_1_3.jpg" alt="">
-                                </div>
-                                <h3 class="box-title">Nulla porttitor accumsan tincidunt. Mauris blandit aliquet
-                                    elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum
-                                    porta. Lorem ipsum dolor adipiscing elit.</h3>
-                                <div class="testi-item_profile">
-                                    <div class="media-body">
-                                        <h4 class="testi-item_name">Jenifer Lopez</h4>
-                                        <p class="testi-item_desig">Customer</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testi-quote"><img src="assets/img/shape/quote.png" alt=""></div>
-                    <div class="testi-shape1"><img src="assets/img/shape/leaf.svg" alt=""></div>
-                    <div class="testi-shape2"><img src="assets/img/shape/flower_1_4.png" alt=""></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="shape-mockup jump d-none d-xxl-block" data-top="30%" data-right="0%"><img
-            src="assets/img/shape/leaves_4.png" alt="shape"></div>
-</div>
-<div class="sec-shape"><span class="sec-shape_img"><img src="assets/img/icon/logo-ic-30.png
-" alt=""></span></div>
-<section class="space overflow-hidden" id="blog-sec">
-    <div class="container">
-        <div class="title-area text-center"><span class="sub-title style2">Our Blog</span> <img
-                src="assets/img/theme-img/title_shape_1.svg" alt="">
-            <h2 class="sec-title">Our Latest News & Blog</h2>
-        </div>
-        <div class="row slider-shadow th-carousel" id="blogSlide1" data-slide-show="3" data-lg-slide-show="2"
-             data-md-slide-show="2" data-sm-slide-show="1" data-arrows="true">
-            <div class="col-md-6 col-xl-4">
-                <div class="blog-card wow fadeInUp">
-                    <div class="blog-img"><img src="assets/img/blog/blog_1_1.jpg" alt="blog image"></div>
-                    <div class="blog-card_wrapper">
-                        <div class="blog-card_date">10<span class="blog-card_month">May 2023</span></div>
-                        <div class="blog-card-content">
-                            <div class="blog-meta"><a href="blog.html"><i class="fa-solid fa-user"></i>By Alex
-                                    Michel</a> <a href="blog.html"><i class="fa-solid fa-tags"></i>Beauty Spa</a>
-                            </div>
-                            <h3 class="box-title"><a href="blog-details.html">Maintaining Health and Beauty Through
-                                    Spas</a></h3><a href="blog-details.html" class="line-btn">Read More<i
-                                    class="fa-solid fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-4">
-                <div class="blog-card wow fadeInDown">
-                    <div class="blog-img"><img src="assets/img/blog/blog_1_2.jpg" alt="blog image"></div>
-                    <div class="blog-card_wrapper">
-                        <div class="blog-card_date">14<span class="blog-card_month">Jun 2023</span></div>
-                        <div class="blog-card-content">
-                            <div class="blog-meta"><a href="blog.html"><i class="fa-solid fa-user"></i>By Alex
-                                    Michel</a> <a href="blog.html"><i class="fa-solid fa-tags"></i>Beauty Spa</a>
-                            </div>
-                            <h3 class="box-title"><a href="blog-details.html">Do Massages Have Real Health
-                                    Benefits?</a></h3><a href="blog-details.html" class="line-btn">Read More<i
-                                    class="fa-solid fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-4">
-                <div class="blog-card wow fadeInUp">
-                    <div class="blog-img"><img src="assets/img/blog/blog_1_3.jpg" alt="blog image"></div>
-                    <div class="blog-card_wrapper">
-                        <div class="blog-card_date">15<span class="blog-card_month">July 2023</span></div>
-                        <div class="blog-card-content">
-                            <div class="blog-meta"><a href="blog.html"><i class="fa-solid fa-user"></i>By Alex
-                                    Michel</a> <a href="blog.html"><i class="fa-solid fa-tags"></i>Beauty Spa</a>
-                            </div>
-                            <h3 class="box-title"><a href="blog-details.html">Ultra Glam Gold Nail Polishes for
-                                    Holiday.</a></h3><a href="blog-details.html" class="line-btn">Read More<i
-                                    class="fa-solid fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-4">
-                <div class="blog-card wow fadeInDown">
-                    <div class="blog-img"><img src="assets/img/blog/blog_1_4.jpg" alt="blog image"></div>
-                    <div class="blog-card_wrapper">
-                        <div class="blog-card_date">16<span class="blog-card_month">Aug 2023</span></div>
-                        <div class="blog-card-content">
-                            <div class="blog-meta"><a href="blog.html"><i class="fa-solid fa-user"></i>By Alex
-                                    Michel</a> <a href="blog.html"><i class="fa-solid fa-tags"></i>Beauty Spa</a>
-                            </div>
-                            <h3 class="box-title"><a href="blog-details.html">A Relaxation of the Senses with Their
-                                    Help</a></h3><a href="blog-details.html" class="line-btn">Read More<i
-                                    class="fa-solid fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="shape-mockup jump d-none d-lg-block" data-top="0%" data-left="0%"><img
-            src="assets/img/shape/leaves_3.png" alt="shape"></div>
-    <div class="shape-mockup d-none d-xxl-block" data-bottom="0%" data-right="0%"><img
-            src="assets/img/shape/flower_1_2.png" alt="shape"></div>
-</section>
-<div class="brand-sec bg-smoke">
-    <div class="container-fluid">
-        <div class="row th-carousel" id="brandSlide1" data-slide-show="7" data-xl-slide-show="4"
-             data-lg-slide-show="4" data-md-slide-show="3" data-sm-slide-show="3" data-xs-slide-show="1">
-            <div class="col-auto">
-                <div class="brand-box wow fadeInLeft"><a href="#"><img class="original"
-                                                                       src="assets/img/brand/brand_1_1.png" alt="Brand Logo"> <img class="gray"
-                                                                                                                                   src="assets/img/brand/brand_1_1.png" alt="Brand Logo"></a></div>
-            </div>
-            <div class="col-auto">
-                <div class="brand-box wow fadeInLeft"><a href="#"><img class="original"
-                                                                       src="assets/img/brand/brand_1_2.png" alt="Brand Logo"> <img class="gray"
-                                                                                                                                   src="assets/img/brand/brand_1_2.png" alt="Brand Logo"></a></div>
-            </div>
-            <div class="col-auto">
-                <div class="brand-box wow fadeInLeft"><a href="#"><img class="original"
-                                                                       src="assets/img/brand/brand_1_3.png" alt="Brand Logo"> <img class="gray"
-                                                                                                                                   src="assets/img/brand/brand_1_3.png" alt="Brand Logo"></a></div>
-            </div>
-            <div class="col-auto">
-                <div class="brand-box wow fadeInLeft"><a href="#"><img class="original"
-                                                                       src="assets/img/brand/brand_1_4.png" alt="Brand Logo"> <img class="gray"
-                                                                                                                                   src="assets/img/brand/brand_1_4.png" alt="Brand Logo"></a></div>
-            </div>
-            <div class="col-auto">
-                <div class="brand-box wow fadeInLeft"><a href="#"><img class="original"
-                                                                       src="assets/img/brand/brand_1_5.png" alt="Brand Logo"> <img class="gray"
-                                                                                                                                   src="assets/img/brand/brand_1_5.png" alt="Brand Logo"></a></div>
-            </div>
-            <div class="col-auto">
-                <div class="brand-box wow fadeInLeft"><a href="#"><img class="original"
-                                                                       src="assets/img/brand/brand_1_6.png" alt="Brand Logo"> <img class="gray"
-                                                                                                                                   src="assets/img/brand/brand_1_6.png" alt="Brand Logo"></a></div>
-            </div>
-            <div class="col-auto">
-                <div class="brand-box wow fadeInLeft"><a href="#"><img class="original"
-                                                                       src="assets/img/brand/brand_1_7.png" alt="Brand Logo"> <img class="gray"
-                                                                                                                                   src="assets/img/brand/brand_1_7.png" alt="Brand Logo"></a></div>
-            </div>
-            <div class="col-auto">
-                <div class="brand-box wow fadeInLeft"><a href="#"><img class="original"
-                                                                       src="assets/img/brand/brand_1_8.png" alt="Brand Logo"> <img class="gray"
-                                                                                                                                   src="assets/img/brand/brand_1_8.png" alt="Brand Logo"></a></div>
-            </div>
-        </div>
-    </div>
-</div>
 @endsection

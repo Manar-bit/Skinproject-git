@@ -45,7 +45,7 @@
                                 </li>
                                 <li ><a href="#">CHEQUES CADEAUX</a>
                                 </li>
-                                <li ><a href="#">GALERIE</a>
+                                <li ><a href="{{route('galerie')}}">GALERIE</a>
                                 </li>
                                 <li><a href="contact.html">A PROPOS </a></li>
                                 <li><a href="{{route('contact')}}">Contact </a></li>

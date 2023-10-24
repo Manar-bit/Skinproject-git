@@ -19,5 +19,9 @@ class IndexController extends Controller
 
         return view('tarifs');
     }
+    public function galerie() {
+
+        return view('galerie');
+    }
 
 }

@@ -76,16 +76,16 @@
 
 
 
-
-
     <div class="shape-mockup jump d-none d-xl-block" data-bottom="0%" data-left="0%"><img
             src="assets/img/shape/leaves_1.png" alt="shape"></div>
     <div class="shape-mockup jump d-none d-xl-block" data-top="20%" data-right="0%"><img
             src="assets/img/shape/leaves_7.png" alt="shape"></div>
     <div class="sec-shape"><span class="sec-shape_img"><img src="assets/img/icon/logo-ic-30.png" alt=""></span></div>
+
+
 </section>
 
-<div class="overflow-hidden space">
+<div class="overflow-hidden">
     <div class="container">
         <div class="row">
             <div class="title-area text-center mb-25">
@@ -171,7 +171,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="testi-shape"><img src="assets/img/shape/flower_1_5.svg" alt=""></div>
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInRight">
@@ -308,7 +307,7 @@
 
 
 
-<div class="faq-sec overflow-hidden space" data-bg-src="assets/img/bg/faq_bg_1.jpg">
+<div class="faq-sec overflow-hidden space"  style="background-image: linear-gradient( 109.6deg, #eed9b1 25.2%, #ab6a491f 99.1% ); margin-top: -208px">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
@@ -320,17 +319,15 @@
                         <div class="title-area mb-40">
                             <h2 class="sec-title">Le laser Eden Skin</h2>
                         </div>
-                        <div class="accordion-area accordion" id="faqAccordion">
+
                             <div class="accordion-card active" style="padding-top: 23px;">
-                                <div class="accordion-header" id="collapse-item-1"></div>
-                                <div id="collapse-1" class="accordion-collapse collapse show"
-                                    aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body " class="accordion-body1 ">
+
+                                    <div class="accordion-body" class="accordion-body1" >
                                         <p class="faq-text"> La machine LASERSKIN est utilisée pour l’épilation définitive sur tous types de peaux,
-                                             même foncées. Sa technologie à la pointe permet :.</p>
+                                             même foncées. Sa technologie à la pointe permet :</p>
                                     </div>
                                 </div>
-                            </div>
+
                             <div class="accordion-card">
                                 <div class="accordion-header" id="collapse-item-2"><button
                                         class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -339,7 +336,7 @@
                                 <div id="collapse-2" class="accordion-collapse collapse"
                                     aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="faq-text"> grâce à la technologie « Permanent Pulse » qui permet un balayage continu et au cristal 
+                                        <p class="faq-text"> grâce à la technologie « Permanent Pulse » qui permet un balayage continu et au cristal
                                             réfrigéré (-10°C) qui évite une surchauffe de la peau.</p>
                                     </div>
                                 </div>
@@ -399,7 +396,7 @@
                     </div>
                     <div class="nav nav-tabs pricing-tabs" id="nav-tab" role="tablist">
                         <button class="nav-link price-list active" id="nav-step1-tab" data-bs-toggle="tab"
-                            data-bs-target="#nav-step1" type="button">Visage</button> 
+                            data-bs-target="#nav-step1" type="button">Visage</button>
                             <button
                             class="nav-link price-list" id="nav-step2-tab" data-bs-toggle="tab"
                             data-bs-target="#nav-step2" type="button">Bras</button> <button
@@ -418,7 +415,7 @@
                                             <div class="price-box_content">
                                                 <h4 class="box-title">Lèvre supérieur - Epilation définitive Bruxelles
                                                 </h4>
-                                                
+
                                             </div><span >19€</span>
                                         </div>
                                     </div>
@@ -426,7 +423,7 @@
                                         <div class="price-box_wrapp">
                                             <div class="price-box_content">
                                                 <h4 class="box-title">Menton - Epilation définitive Bruxelles</h4>
-                                            
+
                                             </div><span >19€</span>
                                         </div>
                                     </div>
@@ -435,11 +432,11 @@
                                             <div class="price-box_content">
                                                 <h4 class="box-title">Visage - Epilation définitive Bruxelles
                                                 </h4>
-                                               
+
                                             </div><span >49€</span>
                                         </div>
                                     </div>
-                                  
+
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="nav-step2" role="tabpanel">
@@ -449,7 +446,7 @@
                                             <div class="price-box_content">
                                                 <h4 class="box-title">Aisselles - Epilation définitive Bruxelles
                                                 </h4>
-                                              
+
                                             </div><span class="price-box_price">34€</span>
                                         </div>
                                     </div>
@@ -457,7 +454,7 @@
                                         <div class="price-box_wrapp">
                                             <div class="price-box_content">
                                                 <h4 class="box-title">Demi-bras (mains comprises) - Epilation définitive Bruxelles</h4>
-                                                
+
                                             </div><span class="price-box_price">44€</span>
                                         </div>
                                     </div>
@@ -466,8 +463,8 @@
                                             <div class="price-box_content">
                                                 <h4 class="box-title">Bras complet (mains comprises) - Epilation définitive Bruxelles
                                                 </h4>
-                                             
-                                                
+
+
                                             </div><span class="price-box_price">59€</span>
                                         </div>
                                     </div>
@@ -475,11 +472,11 @@
                                         <div class="price-box_wrapp">
                                             <div class="price-box_content">
                                                 <h4 class="box-title">Mains - Epilation définitive Bruxelles</h4>
-                                               
+
                                             </div><span class="price-box_price">19€</span>
                                         </div>
                                     </div>
-                                   
+
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="nav-step3" role="tabpanel">
@@ -489,7 +486,7 @@
                                             <div class="price-box_content">
                                                 <h4 class="box-title">Demi-jambes (y compris les pieds) - Epilation définitive Bruxelles
                                                 </h4>
-                                               
+
                                             </div><span class="price-box_price">59€</span>
                                         </div>
                                     </div>
@@ -497,11 +494,11 @@
                                         <div class="price-box_wrapp">
                                             <div class="price-box_content">
                                                 <h4 class="box-title">Jambes complètes - Epilation définitive Bruxelles</h4>
-                                               
+
                                             </div><span class="price-box_price">94€</span>
                                         </div>
                                     </div>
-                                 
+
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="nav-step4" role="tabpanel">
@@ -511,7 +508,7 @@
                                             <div class="price-box_content">
                                                 <h4 class="box-title">Pack corps complet - Epilation définitive Bruxelles
                                                 </h4>
-                                               
+
                                             </div><span class="price-box_price">179€</span>
                                         </div>
                                     </div>
@@ -519,7 +516,7 @@
                                         <div class="price-box_wrapp">
                                             <div class="price-box_content">
                                                 <h4 class="box-title">Maillot intégral (SIF compris) - Epilation définitive Bruxelles</h4>
-                                               
+
                                             </div><span class="price-box_price">49€</span>
                                         </div>
                                     </div>
@@ -528,7 +525,7 @@
                                             <div class="price-box_content">
                                                 <h4 class="box-title">Bas du dos - Epilation définitive Bruxelles
                                                 </h4>
-                                               
+
                                             </div><span class="price-box_price">24€</span>
                                         </div>
                                     </div>
@@ -536,7 +533,7 @@
                                         <div class="price-box_wrapp">
                                             <div class="price-box_content">
                                                 <h4 class="box-title">Dos complet - Epilation définitive Bruxelles</h4>
-                                               
+
                                             </div><span class="price-box_price">49€</span>
                                         </div>
                                     </div>
@@ -544,7 +541,7 @@
                                         <div class="price-box_wrapp">
                                             <div class="price-box_content">
                                                 <h4 class="box-title">Ventre complet - Epilation définitive Bruxelles</h4>
-                                               
+
                                             </div><span class="price-box_price">29€</span>
                                         </div>
                                     </div>
@@ -552,7 +549,7 @@
                                         <div class="price-box_wrapp">
                                             <div class="price-box_content">
                                                 <h4 class="box-title">Nuque - Epilation définitive Bruxelles</h4>
-                                               
+
                                             </div><span class="price-box_price">24€</span>
                                         </div>
                                     </div>
@@ -561,17 +558,15 @@
                         </div>
                     </div>
                 </div>
-              
+
                 <section class="service-area2 overflow-hidden space" id="service-sec">
         <div class="container">
-           
+
             <div class="row slider-shadow " id="serviceSlide1"  data-lg-slide-show="2"
                 data-md-slide-show="2" data-sm-slide-show="1" data-arrows="true">
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="service-card">
-                        <div class="service-card_overlay" data-bg-src="assets/img/shape/service_shape2.png"></div>
-                        
-                        <div class="service-card_icon"><i class="fa-light fa-arrow-up-right"></i></div>
+
                         <div class="service-card-content">
                             <h3 class="box-title">Prévenez les poils incarnés pour une peau plus douce</h3>
                             <p class="service-card_text">Vous n'aurez pas besoin de vous raser aussi souvent, ce qui minimise les éruptions cutanées ou
@@ -581,26 +576,22 @@
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="service-card">
-                        <div class="service-card_overlay" data-bg-src="assets/img/shape/service_shape2.png"></div>
-                        
-                        <div class="service-card_icon"><i class="fa-light fa-arrow-up-right"></i></div>
+
                         <div class="service-card-content">
-                            <h3 class="box-title">Réduit la croissance des poils</h3>
-                            <p class="service-card_text">La thérapie au laser offre une solution permanente pour réduire la croissance des poils. 
-                                Avec une série de séances de traitement régulières, vous pouvez vous débarrasser de vos poils indésirables jusqu'à 90 %. 
+                            <h3 class="box-title">Réduit la <br>croissance des poils</h3>
+                            <p class="service-card_text">La thérapie au laser offre une solution permanente pour réduire la croissance des poils.
+                                Avec une série de séances de traitement régulières, vous pouvez vous débarrasser de vos poils indésirables jusqu'à 90 %.
                                 Chaque séance réduit la croissance des poils, les rendant plus fins et moins visibles.</p>
-                              
+
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="service-card">
-                        <div class="service-card_overlay" data-bg-src="assets/img/shape/service_shape2.png"></div>
-                       
-                        <div class="service-card_icon"><i class="fa-light fa-arrow-up-right"></i></div>
+
                         <div class="service-card-content">
-                            <h3 class="box-title">Rajeunissement de la peau et de son apparence</h3>
-                            <p class="service-card_text">L'épilation au laser peut aider à resserrer la peau en stimulant la production de collagène, une protéine essentielle pour maintenir l'élasticité de la peau. 
+                            <h3 class="box-title">Rajeunissement <br>de la peau et de son apparence</h3>
+                            <p class="service-card_text">L'épilation au laser peut aider à resserrer la peau en stimulant la production de collagène, une protéine essentielle pour maintenir l'élasticité de la peau.
                                 Le résultat est une peau plus ferme et plus jeune.
                             </p>
                         </div>
@@ -608,21 +599,18 @@
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="service-card">
-                        <div class="service-card_overlay" data-bg-src="assets/img/shape/service_shape2.png"></div>
-                       
-                        <div class="service-card_icon"><i class="fa-light fa-arrow-up-right"></i></div>
+
                         <div class="service-card-content">
                             <h3 class="box-title">Diminution <br> de la fréquence de l'épilation</h3>
                             <p class="service-card_text">L'épilation au laser est une solution permanente à long terme pour
-                                 l'élimination des poils. Cela signifie que vous n'aurez pas à vous soucier de l'épilation régulière, 
+                                 l'élimination des poils. Cela signifie que vous n'aurez pas à vous soucier de l'épilation régulière,
                                 ce qui peut être un soulagement pour ceux qui ont une pilosité excessive.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="shape-mockup shape-wrapp jump d-none d-xxl-block" data-bottom="5%" data-left="0%"><img
-                src="assets/img/shape/leaves_6.png" alt="shape"></div>
+
     </section>
 
 
@@ -638,7 +626,7 @@
 
 
 
-<div class="overflow-hidden space">
+<div class="overflow-hidden space" style="margin-bottom: 55px">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12">

@@ -34,7 +34,7 @@
                                 <li ><a href="{{route('index')}}">ACCEUIL</a>
 
                                 </li>
-                                <li ><a href="#">EPILATION LASER</a>
+                                <li ><a href="{{route('epilationlazer')}}">EPILATION LASER</a>
 
                                 </li>
                                 <li ><a href="#">TECHNOLOGIES</a>

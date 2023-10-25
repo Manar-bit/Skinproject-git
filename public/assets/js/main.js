@@ -251,6 +251,16 @@
                 t.preventDefault(), e(this).addClass("active"), e(this).siblings(".active").removeClass("active")
             }))
         }
+    })),e(".filter-active-1").imagesLoaded((function () {
+        if (e(".filter-active-1").length > 0) {
+            var t = e(".filter-active-1").isotope({itemSelector: ".filter-item", filter: "*"});
+            e(".filter-menu-active").on("click", "button", (function () {
+                var s = e(this).attr("data-filter");
+                t.isotope({filter: s})
+            })), e(".filter-menu-active").on("click", "button", (function (t) {
+                t.preventDefault(), e(this).addClass("active"), e(this).siblings(".active").removeClass("active")
+            }))
+        }
     })), e(".masonary-active").imagesLoaded((function () {
         e(".masonary-active").length > 0 && e(".masonary-active").isotope({itemSelector: ".filter-item", filter: "*", masonry: {columnWidth: 1}})
     })), e(".odometer").length && (e(".odometer").appear(), e(document.body).on("appear", ".odometer", (function (t) {

@@ -24,4 +24,10 @@ class IndexController extends Controller
         return view('galerie');
     }
 
+
+    public function epilationlazer() {
+
+        return view('epilationlazer');
+    }
+
 }

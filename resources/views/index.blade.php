@@ -308,119 +308,329 @@
 
 
 
-
-
-
-
-<section class="testimonial-sec overflow-hidden">
-    <div class="container th-container">
-        <div class="testi-area">
+<div class="faq-sec overflow-hidden space" data-bg-src="assets/img/bg/faq_bg_1.jpg">
+        <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="testi-box-slide th-carousel" data-fade="true" data-slide-show="1">
-                        <div>
-                            <div class="testi-box style2">
-                                <div class="testi-box_img"><img src="assets/img/testimonial/testi_3_1.jpg" alt="Avater">
-                                    <div class="testi-quote_img"><img src="assets/img/shape/quote_4.png" alt=""></div>
-                                </div>
-                                <div class="testi-box_content wow fadeInUp">
-                                    <div class="title-area mb-25"><span class="sub-title">Testimonials<img
-                                                src="assets/img/theme-img/title_right.svg" alt=""></span>
-                                        <h2 class="sec-title">Our Customer Feedback</h2></div>
-                                    <p class="testi-box_text">Whether it's a simple trim or a complete makeover, our
-                                        stylists approach every haircut with meticulous attention to detail. We use
-                                        professional tools and techniques to ensure clean lines and a precise cut that
-                                        creates a polished and well-groomed look.</p>
-                                    <h3 class="testi-box_name">Angelina Margret</h3><span class="testi-box_desig">Customer</span>
-                                    <div class="testi-quote"><img src="assets/img/shape/quote_3.png" alt=""></div>
-                                </div>
-                                <div class="shape-mockup d-none d-xl-block" data-bottom="0%" data-right="0%"><img
-                                        src="assets/img/shape/flower_1_8.png" alt="shape"></div>
-                            </div>
+                <div class="col-xl-6">
+                   <img src="assets/img/testimonial/testi_3_1.jpg"
+                        alt="Avater">
+                </div>
+                <div class="col-xl-6">
+                    <div class="ps-xl-4">
+                        <div class="title-area mb-40">
+                            <h2 class="sec-title">Le laser Eden Skin</h2>
                         </div>
-                        <div>
-                            <div class="testi-box style2">
-                                <div class="testi-box_img"><img src="assets/img/testimonial/testi_3_2.jpg" alt="Avater">
-                                    <div class="testi-quote_img"><img src="assets/img/shape/quote_4.png" alt=""></div>
+                        <div class="accordion-area accordion" id="faqAccordion">
+                            <div class="accordion-card active" style="padding-top: 23px;">
+                                <div class="accordion-header" id="collapse-item-1"></div>
+                                <div id="collapse-1" class="accordion-collapse collapse show"
+                                    aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body " class="accordion-body1 ">
+                                        <p class="faq-text"> La machine LASERSKIN est utilisée pour l’épilation définitive sur tous types de peaux,
+                                             même foncées. Sa technologie à la pointe permet :.</p>
+                                    </div>
                                 </div>
-                                <div class="testi-box_content wow fadeInUp">
-                                    <div class="title-area mb-25"><span class="sub-title">Testimonials<img
-                                                src="assets/img/theme-img/title_right.svg" alt=""></span>
-                                        <h2 class="sec-title">Our Customer Feedback</h2></div>
-                                    <p class="testi-box_text">Whether it's a simple trim or a complete makeover, our
-                                        stylists approach every haircut with meticulous attention to detail. We use
-                                        professional tools and techniques to ensure clean lines and a precise cut that
-                                        creates a polished and well-groomed look.</p>
-                                    <h3 class="testi-box_name">Senjuti das</h3><span
-                                        class="testi-box_desig">Customer</span>
-                                    <div class="testi-quote"><img src="assets/img/shape/quote_3.png" alt=""></div>
-                                </div>
-                                <div class="shape-mockup d-none d-xl-block" data-bottom="0%" data-right="0%"><img
-                                        src="assets/img/shape/flower_1_8.png" alt="shape"></div>
                             </div>
-                        </div>
-                        <div>
-                            <div class="testi-box style2">
-                                <div class="testi-box_img"><img src="assets/img/testimonial/testi_3_3.jpg" alt="Avater">
-                                    <div class="testi-quote_img"><img src="assets/img/shape/quote_4.png" alt=""></div>
+                            <div class="accordion-card">
+                                <div class="accordion-header" id="collapse-item-2"><button
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse-2" aria-expanded="false"
+                                        aria-controls="collapse-2">Un soin indolore</button></div>
+                                <div id="collapse-2" class="accordion-collapse collapse"
+                                    aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p class="faq-text"> grâce à la technologie « Permanent Pulse » qui permet un balayage continu et au cristal 
+                                            réfrigéré (-10°C) qui évite une surchauffe de la peau.</p>
+                                    </div>
                                 </div>
-                                <div class="testi-box_content wow fadeInUp">
-                                    <div class="title-area mb-25"><span class="sub-title">Testimonials<img
-                                                src="assets/img/theme-img/title_right.svg" alt=""></span>
-                                        <h2 class="sec-title">Our Customer Feedback</h2></div>
-                                    <p class="testi-box_text">Whether it's a simple trim or a complete makeover, our
-                                        stylists approach every haircut with meticulous attention to detail. We use
-                                        professional tools and techniques to ensure clean lines and a precise cut that
-                                        creates a polished and well-groomed look.</p>
-                                    <h3 class="testi-box_name">Jenifer Lopez</h3><span
-                                        class="testi-box_desig">Customer</span>
-                                    <div class="testi-quote"><img src="assets/img/shape/quote_3.png" alt=""></div>
-                                </div>
-                                <div class="shape-mockup d-none d-xl-block" data-bottom="0%" data-right="0%"><img
-                                        src="assets/img/shape/flower_1_8.png" alt="shape"></div>
                             </div>
-                        </div>
-                        <div>
-                            <div class="testi-box style2">
-                                <div class="testi-box_img"><img src="assets/img/testimonial/testi_3_4.jpg" alt="Avater">
-                                    <div class="testi-quote_img"><img src="assets/img/shape/quote_4.png" alt=""></div>
+                            <div class="accordion-card">
+                                <div class="accordion-header" id="collapse-item-3"><button
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse-3" aria-expanded="false"
+                                        aria-controls="collapse-3">Un soin rapide</button></div>
+                                <div id="collapse-3" class="accordion-collapse collapse"
+                                    aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p class="faq-text">10 minutes à 30 minutes pour les zones étendues comme les jambes, le torse, le dos.</p>
+                                    </div>
                                 </div>
-                                <div class="testi-box_content wow fadeInUp">
-                                    <div class="title-area mb-25"><span class="sub-title">Testimonials<img
-                                                src="assets/img/theme-img/title_right.svg" alt=""></span>
-                                        <h2 class="sec-title">Our Customer Feedback</h2></div>
-                                    <p class="testi-box_text">Whether it's a simple trim or a complete makeover, our
-                                        stylists approach every haircut with meticulous attention to detail. We use
-                                        professional tools and techniques to ensure clean lines and a precise cut that
-                                        creates a polished and well-groomed look.</p>
-                                    <h3 class="testi-box_name">Dianne Russell</h3><span
-                                        class="testi-box_desig">Customer</span>
-                                    <div class="testi-quote"><img src="assets/img/shape/quote_3.png" alt=""></div>
-                                </div>
-                                <div class="shape-mockup d-none d-xl-block" data-bottom="0%" data-right="0%"><img
-                                        src="assets/img/shape/flower_1_8.png" alt="shape"></div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="testi-box-tab wow fadeInUp" data-asnavfor=".testi-box-slide">
-                        <button class="tab-btn active" type="button"><img src="assets/img/testimonial/testi_3_1.jpg"
-                                                                          alt="tab-btn image"></button>
-                        <button class="tab-btn" type="button"><img src="assets/img/testimonial/testi_3_2.jpg"
-                                                                   alt="tab-btn image"></button>
-                        <button class="tab-btn" type="button"><img src="assets/img/testimonial/testi_3_3.jpg"
-                                                                   alt="tab-btn image"></button>
-                        <button class="tab-btn" type="button"><img src="assets/img/testimonial/testi_3_4.jpg"
-                                                                   alt="tab-btn image"></button>
-                        <div class="icon-box">
-                            <button data-slick-next="#testiSlide4" class="slick-arrow default"><i
-                                    class="far fa-arrow-right"></i></button>
+                            <div class="accordion-card">
+                                <div class="accordion-header" id="collapse-item-4"><button
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse-4" aria-expanded="false"
+                                        aria-controls="collapse-4">Un soin efficace</button></div>
+                                <div id="collapse-4" class="accordion-collapse collapse"
+                                    aria-labelledby="collapse-item-4" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p class="faq-text">dès la première séance d’épilation.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-card">
+                                <div class="accordion-header" id="collapse-item-5"><button
+                                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse-" aria-expanded="false"
+                                        aria-controls="collapse-">Des résultats durables </button></div>
+                                <div id="collapse-" class="accordion-collapse collapse"
+                                    aria-labelledby="collapse-item-" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p class="faq-text">résultats définitifs après 4 à 6 séances.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+
+
+
+<section class="price-area overflow-hidden space">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 wow fadeInLeft">
+                    <div class="title-area mb-40 text-center text-xl-start"><span class="sub-title">TARIFS À LA SÉANCE<img
+                                src="assets/img/theme-img/title_right.svg" alt=""></span>
+                        <h2 class="sec-title">Prix et zones d'épilation laser permanent</h2>
+                    </div>
+                    <div class="nav nav-tabs pricing-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link price-list active" id="nav-step1-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-step1" type="button">Visage</button> 
+                            <button
+                            class="nav-link price-list" id="nav-step2-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-step2" type="button">Bras</button> <button
+                            class="nav-link price-list" id="nav-step3-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-step3" type="button">Jambes</button>
+                            <button
+                            class="nav-link price-list" id="nav-step4-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-step4" type="button">Corps</button>
+                        </div>
+                    <div class="price-list-area" style="max-width: 789px;">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade active show" id="nav-step1" role="tabpanel">
+                                <div class="price-box-wrapper style2">
+                                    <div class="price-box">
+                                        <div class="price-box_wrapp">
+                                            <div class="price-box_content">
+                                                <h4 class="box-title">Lèvre supérieur - Epilation définitive Bruxelles
+                                                </h4>
+                                                
+                                            </div><span >19€</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-box">
+                                        <div class="price-box_wrapp">
+                                            <div class="price-box_content">
+                                                <h4 class="box-title">Menton - Epilation définitive Bruxelles</h4>
+                                            
+                                            </div><span >19€</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-box">
+                                        <div class="price-box_wrapp">
+                                            <div class="price-box_content">
+                                                <h4 class="box-title">Visage - Epilation définitive Bruxelles
+                                                </h4>
+                                               
+                                            </div><span >49€</span>
+                                        </div>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-step2" role="tabpanel">
+                                <div class="price-box-wrapper style2">
+                                    <div class="price-box">
+                                        <div class="price-box_wrapp">
+                                            <div class="price-box_content">
+                                                <h4 class="box-title">Aisselles - Epilation définitive Bruxelles
+                                                </h4>
+                                              
+                                            </div><span class="price-box_price">34€</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-box">
+                                        <div class="price-box_wrapp">
+                                            <div class="price-box_content">
+                                                <h4 class="box-title">Demi-bras (mains comprises) - Epilation définitive Bruxelles</h4>
+                                                
+                                            </div><span class="price-box_price">44€</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-box">
+                                        <div class="price-box_wrapp">
+                                            <div class="price-box_content">
+                                                <h4 class="box-title">Bras complet (mains comprises) - Epilation définitive Bruxelles
+                                                </h4>
+                                             
+                                                
+                                            </div><span class="price-box_price">59€</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-box">
+                                        <div class="price-box_wrapp">
+                                            <div class="price-box_content">
+                                                <h4 class="box-title">Mains - Epilation définitive Bruxelles</h4>
+                                               
+                                            </div><span class="price-box_price">19€</span>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-step3" role="tabpanel">
+                                <div class="price-box-wrapper style2">
+                                    <div class="price-box">
+                                        <div class="price-box_wrapp">
+                                            <div class="price-box_content">
+                                                <h4 class="box-title">Demi-jambes (y compris les pieds) - Epilation définitive Bruxelles
+                                                </h4>
+                                               
+                                            </div><span class="price-box_price">59€</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-box">
+                                        <div class="price-box_wrapp">
+                                            <div class="price-box_content">
+                                                <h4 class="box-title">Jambes complètes - Epilation définitive Bruxelles</h4>
+                                               
+                                            </div><span class="price-box_price">94€</span>
+                                        </div>
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-step4" role="tabpanel">
+                                <div class="price-box-wrapper style2">
+                                    <div class="price-box">
+                                        <div class="price-box_wrapp">
+                                            <div class="price-box_content">
+                                                <h4 class="box-title">Pack corps complet - Epilation définitive Bruxelles
+                                                </h4>
+                                               
+                                            </div><span class="price-box_price">179€</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-box">
+                                        <div class="price-box_wrapp">
+                                            <div class="price-box_content">
+                                                <h4 class="box-title">Maillot intégral (SIF compris) - Epilation définitive Bruxelles</h4>
+                                               
+                                            </div><span class="price-box_price">49€</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-box">
+                                        <div class="price-box_wrapp">
+                                            <div class="price-box_content">
+                                                <h4 class="box-title">Bas du dos - Epilation définitive Bruxelles
+                                                </h4>
+                                               
+                                            </div><span class="price-box_price">24€</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-box">
+                                        <div class="price-box_wrapp">
+                                            <div class="price-box_content">
+                                                <h4 class="box-title">Dos complet - Epilation définitive Bruxelles</h4>
+                                               
+                                            </div><span class="price-box_price">49€</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-box">
+                                        <div class="price-box_wrapp">
+                                            <div class="price-box_content">
+                                                <h4 class="box-title">Ventre complet - Epilation définitive Bruxelles</h4>
+                                               
+                                            </div><span class="price-box_price">29€</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-box">
+                                        <div class="price-box_wrapp">
+                                            <div class="price-box_content">
+                                                <h4 class="box-title">Nuque - Epilation définitive Bruxelles</h4>
+                                               
+                                            </div><span class="price-box_price">24€</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+                <section class="service-area2 overflow-hidden space" id="service-sec">
+        <div class="container">
+           
+            <div class="row slider-shadow " id="serviceSlide1"  data-lg-slide-show="2"
+                data-md-slide-show="2" data-sm-slide-show="1" data-arrows="true">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-card">
+                        <div class="service-card_overlay" data-bg-src="assets/img/shape/service_shape2.png"></div>
+                        
+                        <div class="service-card_icon"><i class="fa-light fa-arrow-up-right"></i></div>
+                        <div class="service-card-content">
+                            <h3 class="box-title">Prévenez les poils incarnés pour une peau plus douce</h3>
+                            <p class="service-card_text">Vous n'aurez pas besoin de vous raser aussi souvent, ce qui minimise les éruptions cutanées ou
+                                 les chaumes cassants, et moins d'épilation à la cire entraînera également moins de poils incarnés.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-card">
+                        <div class="service-card_overlay" data-bg-src="assets/img/shape/service_shape2.png"></div>
+                        
+                        <div class="service-card_icon"><i class="fa-light fa-arrow-up-right"></i></div>
+                        <div class="service-card-content">
+                            <h3 class="box-title">Réduit la croissance des poils</h3>
+                            <p class="service-card_text">La thérapie au laser offre une solution permanente pour réduire la croissance des poils. 
+                                Avec une série de séances de traitement régulières, vous pouvez vous débarrasser de vos poils indésirables jusqu'à 90 %. 
+                                Chaque séance réduit la croissance des poils, les rendant plus fins et moins visibles.</p>
+                              
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-card">
+                        <div class="service-card_overlay" data-bg-src="assets/img/shape/service_shape2.png"></div>
+                       
+                        <div class="service-card_icon"><i class="fa-light fa-arrow-up-right"></i></div>
+                        <div class="service-card-content">
+                            <h3 class="box-title">Rajeunissement de la peau et de son apparence</h3>
+                            <p class="service-card_text">L'épilation au laser peut aider à resserrer la peau en stimulant la production de collagène, une protéine essentielle pour maintenir l'élasticité de la peau. 
+                                Le résultat est une peau plus ferme et plus jeune.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="service-card">
+                        <div class="service-card_overlay" data-bg-src="assets/img/shape/service_shape2.png"></div>
+                       
+                        <div class="service-card_icon"><i class="fa-light fa-arrow-up-right"></i></div>
+                        <div class="service-card-content">
+                            <h3 class="box-title">Diminution <br> de la fréquence de l'épilation</h3>
+                            <p class="service-card_text">L'épilation au laser est une solution permanente à long terme pour
+                                 l'élimination des poils. Cela signifie que vous n'aurez pas à vous soucier de l'épilation régulière, 
+                                ce qui peut être un soulagement pour ceux qui ont une pilosité excessive.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shape-mockup shape-wrapp jump d-none d-xxl-block" data-bottom="5%" data-left="0%"><img
+                src="assets/img/shape/leaves_6.png" alt="shape"></div>
+    </section>
+
+
+            </div>
+        </div>
+        <div class="shape-mockup jump" data-top="0%" data-right="0%"><img src="assets/img/shape/flower_1_11.png"
+                alt="shape"></div>
+    </section>
 
 
 

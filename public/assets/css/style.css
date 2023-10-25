@@ -19374,7 +19374,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .filter-menu.style2 {
-  background-color: var(--smoke-color);
+  background-color: #f7f6f3;
   padding: 30px 0;
   margin-bottom: 25px;
   -webkit-box-pack: center;
@@ -19391,7 +19391,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .filter-menu.style2 .tab-btn {
-  padding: 4px 18px;
+  padding: 6px 34px;
   border: 1px solid var(--theme-color);
   color: var(--theme-color);
   /* Medium Large devices */
@@ -21092,7 +21092,7 @@ span.select2-selection.select2-selection--single:focus {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
-  z-index: 1;
+
 }
 
 .price-box .box-title {
@@ -23973,6 +23973,9 @@ span.select2-selection.select2-selection--single:focus {
 
     padding-top: 100px;
 }
-
+.accordion-body , .accordion-body::first-letter {
+  color: #C28565;
+  font-size: 170%;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -177,9 +177,15 @@
             </div>
         </div>
     </div>
-    <div class="popup-search-box d-none d-lg-block"><button class="searchClose"><i class="fal fa-times"></i></button>
-        <form action="#"><input type="text" placeholder="What are you looking for?"> <button type="submit"><i
-                    class="fal fa-search"></i></button></form>
+    <div class="popup-search-box d-none d-lg-block">
+        <button class="searchClose"><i class="fal fa-times"></i></button>
+        <h4>Condition d'utilisation des chèques cadeaux</h4>
+        <p>  Vous avez-reçu un chèque cadeau pour venir profiter d'une séance d'épilation laser ?</p>
+        <p>Contactez-nous pour fixer ensemble la réservation au .</p>
+        <p>Une fois le rdv pris, vous pouvez le déplacer ou l'annuler jusqu'à 48h avant l'heure du rdv prévu, ceci sans frais,
+            passé ce délais le chèque cadeau est considéré comme utilisé et donc perdu si vous ne vous présentez pas.</p>
+        <p>Nos chèques cadeaux sont valables durant 2 ans, non prolongeable.</p>
+
     </div>
 
 

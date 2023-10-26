@@ -20,5 +20,9 @@ Route::get('contact',[IndexController::class ,'contact'])->name('contact');
 Route::get('tarifs',[IndexController::class ,'tarifs'])->name('tarifs');
 Route::get('galerie',[IndexController::class ,'galerie'])->name('galerie');
 Route::get('epilationlazer',[IndexController::class ,'epilationlazer'])->name('epilationlazer');
+Route::get('technologies',[IndexController::class ,'technologies'])->name('technologies');
+Route::get('about',[IndexController::class ,'about'])->name('about');
+Route::get('chequesCad',[IndexController::class ,'chequesCad'])->name('chequesCad');
+Route::get('bonAchat',[IndexController::class ,'bonAchat'])->name('bonAchat');
 
 

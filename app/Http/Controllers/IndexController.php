@@ -29,5 +29,24 @@ class IndexController extends Controller
 
         return view('epilationlazer');
     }
+    public function technologies() {
+
+        return view('technologies');
+    }
+
+    public function about() {
+
+        return view('about');
+    }
+    public function chequesCad() {
+
+        return view('chequesCad');
+    }
+    public function bonAchat() {
+
+        return view('bonAchat');
+    }
+
+
 
 }

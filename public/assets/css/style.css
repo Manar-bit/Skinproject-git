@@ -2730,7 +2730,7 @@ hr.title-line {
 }
 
 .text-white {
-  color: var(--white-color) !important;
+  color: black !important;
 }
 
 .text-light {
@@ -7405,7 +7405,7 @@ ol.wp-block-rss {
 .copyright-wrap {
   padding: 22px 0;
   background-size: 100% auto;
-  background-color: #53443D;
+  background-color: #fde9c7;
 }
 
 .copyright-text {
@@ -10045,16 +10045,26 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
   position: fixed;
   background-color: var(--white-color);
   width: 100%;
-  height: 100vh;
+  height: 350px;
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
   transform: scale(0);
   position: fixed;
   z-index: 999;
-  top: 0;
+  top: 50px;
   left: 0;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
+    min-width: 500px;
+    background-color: white;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    margin: auto;
+    overflow: auto;
+    border-radius: 5px;
+    padding: 1em 2em;
 }
 
 .popup-search-box button.searchClose {
@@ -23652,7 +23662,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .mb-40 {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 .mb-45 {

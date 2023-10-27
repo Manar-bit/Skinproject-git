@@ -121,9 +121,14 @@ Version: 1.0.0
 }
 
 /*------------------- 1.5. Typography -------------------*/
-html,
+
 body {
   scroll-behavior: auto !important;
+
+}
+
+html{
+    scroll-behavior: smooth !important;
 }
 
 body {
@@ -7942,14 +7947,14 @@ ol.wp-block-rss {
 
 .breadcumb-wrapper {
   background-color: #F7F7F7;
-  padding: 153px 0;
+  padding: 105px 0;
   overflow: hidden;
 }
 
 /* Large devices */
 @media (max-width: 1199px) {
   .breadcumb-wrapper {
-    padding: 130px 0;
+    padding: 105px 0;
   }
   .breadcumb-menu {
     margin: 25px 0 -0.5em 0;

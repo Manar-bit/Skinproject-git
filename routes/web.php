@@ -24,5 +24,6 @@ Route::get('technologies',[IndexController::class ,'technologies'])->name('techn
 Route::get('about',[IndexController::class ,'about'])->name('about');
 Route::get('chequesCad',[IndexController::class ,'chequesCad'])->name('chequesCad');
 Route::get('bonAchat',[IndexController::class ,'bonAchat'])->name('bonAchat');
-
+Route::get('/contact', 'ContactController@contact')->name('contact');
+Route::post('/contact', 'ContactController@contactPost')->name('contactPost');
 

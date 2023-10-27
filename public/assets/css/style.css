@@ -568,9 +568,9 @@ input {
   height: 56px;
   padding: 0 25px 0 25px;
   padding-right: 45px;
-  border: 1px solid transparent;
+  border: 1px solid #00000017;
   color: var(--body-color);
-  background-color: #fbf4dd;
+  background-color: white;
   border-radius: 0;
   font-size: 16px;
   width: 100%;
@@ -666,7 +666,7 @@ select.style2 {
 
 textarea.form-control,
 textarea {
-  min-height: 154px;
+  min-height: 85px;
   padding-top: 16px;
   padding-bottom: 17px;
 }

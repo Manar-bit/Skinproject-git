@@ -48,34 +48,51 @@
                 </div>
             </div>
             <div class="col-lg-6 col-xl-7">
+            @if(session('success'))
+                   <div class="alert alert-success">
+              {{ session('success') }}
+             </div>
+            @endif
 
-                <form action="https://themeholy.com/html/rasm/demo/mail.php" method="POST"
+                <form action="/contact" method="POST"
                       class="contact-form ajax-contact">
+                       @csrf
                     <h2 class="form-title text-center" style="margin-top: -40px;">Contactez-nous</h2>
                     <div class="row">
-                        <div class="form-group col-md-6"><i class="fa-sharp fa-light fa-user"></i> <input
-                                type="text" class="form-control" name="name" id="name" placeholder="Nom">
+                        <div class="form-group col-md-6 {{ $errors->has('name') ? 'has-error' : '' }}">
+                            <i class="fa-sharp fa-light fa-user"></i> 
+                            <input type="text" class="form-control" name="surname" id="surname" placeholder="Nom">
+                            <span class="text-danger">{{ $errors->first('surname') }}</span>
                         </div>
 
-                        <div class="form-group col-md-6"><i class="fa-sharp fa-light fa-user"></i> <input
-                                type="text" class="form-control" name="name" id="name" placeholder="Prenom">
+                        <div class="form-group col-md-6 {{ $errors->has('name') ? 'has-error' : '' }}">
+                            <i class="fa-sharp fa-light fa-user"></i> 
+                            <input type="text" class="form-control" name="firstname" id="firstname" placeholder="Prenom">
+                            <span class="text-danger">{{ $errors->first('firstname') }}</span>
 
                         </div>
-                        <div class="form-group col-md-6"><i class="fa-sharp fa-regular fa-envelope"></i> <input
-                                type="email" class="form-control" name="email" id="email"
-                                placeholder="Email"></div>
-                        <div class="form-group col-md-6"><input type="tel" class="form-control" name="number"
-                                                                id="number" placeholder="Téléphone"> <i class="fal fa-phone"></i></div>
+                        <div class="form-group col-md-6 {{ $errors->has('name') ? 'has-error' : '' }}">
+                            <i class="fa-sharp fa-regular fa-envelope"></i> 
+                            <input type="email" class="form-control" name="email" id="email"
+                                placeholder="Email">
+                                <span class="text-danger">{{ $errors->first('email') }}</span>
+                            </div>
+                        <div class="form-group col-md-6 {{ $errors->has('name') ? 'has-error' : '' }}">
+                            <input type="tel" class="form-control" name="number" id="number" placeholder="Téléphone"> <i class="fal fa-phone"></i>
+                            <span class="text-danger">{{ $errors->first('number') }}</span>
+                        </div>
+                           
 
 
+                        <div class="form-group col-md-6 {{ $errors->has('name') ? 'has-error' : '' }}">
+                            <i class="fal fa-comment"></i>
+                          <textarea name="comment" id="comment" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
+                          <span class="text-danger">{{ $errors->first('comment') }}</span>
+                        </div>
+                         <div class="form-group col-md-6">
 
-                        <div class="form-group col-md-6"><i class="fal fa-comment"></i> <textarea name="message"
-                                                                                                  id="message" cols="30" rows="3" class="form-control"
-                                                                                                  placeholder="Message"></textarea></div>
-                        <div class="form-group col-md-6">
 
-
-                            <button class="th-btn fw-btn">Contact<i
+                            <button class="th-btn fw-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">Contact<i
                                     class="fa-solid fa-arrow-right ms-2"></i></button>
                         </div>
                     </div>

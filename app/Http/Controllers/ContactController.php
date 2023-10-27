@@ -3,37 +3,35 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\Mail;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Validation\Validator;
+
 
 class ContactController extends Controller
 {
     public function contact(){
-        return view('contact');
+        return view('contact.contact');
 }
 
-public function contactPost(Request $request){
-    $this->validate($request, [
-                   'surname' => 'required',
-                    'firstname' => 'required',
-                    'email' => 'required|email',
-                    'number' => 'required',
-                    'comment' => 'required'
-            ]);
+public function sendMailcontact(Request $request)
+{
+    $validated = $this->validate($request, [
+        'surname' => 'required',
+        'firstname' => 'required',
+        'email' => 'required|email',
+        'number' => 'required',
+        'comment' => 'required'], [
+        'g-recaptcha-response.required' => __('S\'il vous plaît assurez-vous que vous êtes un humain.')
+    ]);
 
-    Mail::send('email', [
-            'surname' => $request->get('surname'),
-            'firstname' => $request->get('firstname'),
-            'email' => $request->get('email') ,
-            'number' => $request->get('number') ,
-            'comment' => $request->get('comment') 
-        ],
-            function ($message) {
-                    $message->from('youremail@your_domain');
-                    $message->to('youremail@your_domain', 'Your Name')
-                    ->subject('Your Website Contact Form');
+
+    Mail::send('contact.sendMailcontact', $validated, function ($m) {
+        $m->to(env('MAIL_CONTACT_TO'));
+        $m->subject('Contact');
     });
-
-    return back()->with('success', 'Thanks for contacting me, I will get back to you soon!');
+    return array('message' => 'Votre message a été enregistré avec succès', 'type' => 'success');
 
 }
+
+
 }

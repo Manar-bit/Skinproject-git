@@ -5,8 +5,8 @@
                 <div class="col-md-6 col-xl-3">
                     <div class="widget footer-widget">
                         <div class="th-widget-about">
-                            <div class="about-logo"><a href="index.html"><img src="assets/img/logo-white.svg"
-                                                                              alt="Rasm"></a></div>
+                            <div class="about-logo"><a href="index.html"><img src="assets/img/logosk.png"
+                                                                              alt="global skin"></a></div>
                             <p class="about-text">Global Skin est un centre d'épilation définitive au laser situé à Bruxelles qui vous offre une gamme
                                 complète de services de soins de la peau.</p>
 

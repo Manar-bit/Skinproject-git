@@ -45,7 +45,7 @@
 
 <body>
     <div class="preloader"><button class="th-btn style3 preloaderCls">Cancel Preloader</button>
-        <div class="preloader-inner"><img src="assets/img/logo.svg" alt="Rasm"> <span class="loader"></span></div>
+        <div class="preloader-inner"><img src="assets/img/logosk.png" alt="Rasm"> <span class="loader"></span></div>
     </div>
     <div class="th-menu-wrapper">
         <div class="th-menu-area">
@@ -54,26 +54,26 @@
             </div>
             <div class="th-mobile-menu">
                 <ul>
-                    <li class="menu-item-has-children"><a href="index.html">ACCUEIL1</a>
+                    <li class="menu-item-has-children"><a href="{{route('index')}}">ACCUEIL</a>
 
                     </li>
-                    <li class="menu-item-has-children"><a href="#">EPILATION LASER</a>
+                    <li class="menu-item-has-children"><a href="{{route('epilationlazer')}}">EPILATION LASER</a>
 
                     </li>
-                    <li class="menu-item-has-children"><a href="#">TECHNOLOGIES</a>
+                    <li class="menu-item-has-children"><a href="{{route('technologies')}}">TECHNOLOGIES</a>
 
                     </li>
-                    <li class="menu-item-has-children mega-menu-wrap"><a href="#">TARIFS</a>
+                    <li class="menu-item-has-children mega-menu-wrap"><a href="{{route('tarifs')}}">TARIFS</a>
 
                     </li>
-                    <li class="menu-item-has-children"><a href="#">CHÈQUES CADEAUX</a>
+                    <li class="menu-item-has-children"><a href="{{route('chequesCad')}}">CHÈQUES CADEAUX</a>
 
                     </li>
-                    <li class="menu-item-has-children"><a href="#">GALERIE</a>
+                    <li class="menu-item-has-children"><a href="{{route('galerie')}}">GALERIE</a>
 
                     </li>
-                    <li><a href="contact.html"> À PROPOS</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="{{route('about')}}"> À PROPOS</a></li>
+                    <li><a href="{{route('contact')}}">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -189,6 +189,7 @@
     </div>
 
 
+
     @include('layouts.header')
 
     @yield('content')
@@ -215,6 +216,7 @@
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
     @yield('scripts')
+
 </body>
 
 </html>

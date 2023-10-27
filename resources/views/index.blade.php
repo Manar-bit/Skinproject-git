@@ -15,7 +15,7 @@
                             <span class="sub-title" data-ani="slideindown" data-ani-delay="0.2s">Bienvenue chez Global Skin </span>
                             <h1 class="hero-title" data-ani="slideindown" data-ani-delay="0.3s">Epilation Définitive au Laser à Bruxelles</h1>
                             <div class="btn-group justify-content-center" data-ani="slideindown" data-ani-delay="0.4s">
-                                <a href="service.html" class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">En savoir +<i class="fa-regular fa-arrow-right ms-2"></i></a></div>
+                                <a href="{{route('about')}}" class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">En savoir +<i class="fa-regular fa-arrow-right ms-2"></i></a></div>
                         </div>
                     </div>
 
@@ -62,7 +62,7 @@
 
 
                         </div>
-                        <div class="btn-group mt-45"><a href="about.html" class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">En savoir +<i
+                        <div class="btn-group mt-45"><a href="{{route('about')}}" class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">En savoir +<i
                                     class="fa-solid fa-arrow-right ms-2"></i></a>
 
 
@@ -268,7 +268,7 @@
 
                         <p class="mad-text-medium content-element-6 text-shadow-white">L'épilation au laser est une solution pour éliminer les poils indésirables et peut convenir à tout le monde. Cependant, lors d'une séance d'épilation au laser, certains éléments sont pris en compte tels que le type de peau et la couleur des poils pour adapter le traitement en conséquence. Le choix du laser utilisé et le nombre de séances nécessaires peuvent varier en fonction de ces facteurs. Ainsi, il est important de déterminer le type de peau et la couleur des poils avant de choisir le laser le plus approprié pour obtenir les meilleurs résultats possibles. Nous sommes là pour vous guider tout au long de ce processus afin que vous puissiez obtenir
                             une épilation au laser efficace et sécurisée.</p>
-                        <div class="btn-group justify-content-center justify-content-lg-start"><button
+                        <div class="btn-group justify-content-center justify-content-lg-start" ><button href="{{route('contact')}}"
                                 class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">Contactez-nous </button></div>
 
 
@@ -652,7 +652,7 @@
                 <div class="gallery-card wow fadeInUp">
                     <div class="gallery-img"><img src="assets/img/gallery/gallery_1_2.jpg" alt="gallery image">
                     </div>
-                    <div class="gallery-content"><a href="assets/img/gallery/gallery_1_2.jpg"
+                    <div class="gallery-content"><a href="assets/img/gallery/gallery_1_2_2.jpg"
                                                     class="icon-btn popup-image"><i class="fa-solid fa-arrow-up-right"></i></a>
 
                     </div>
@@ -662,7 +662,7 @@
                 <div class="gallery-card wow fadeInUp">
                     <div class="gallery-img"><img src="assets/img/gallery/gallery_1_3.jpg" alt="gallery image">
                     </div>
-                    <div class="gallery-content"><a href="assets/img/gallery/gallery_1_3.jpg"
+                    <div class="gallery-content"><a href="assets/img/gallery/gallery_1_3_3.jpg"
                                                     class="icon-btn popup-image"><i class="fa-solid fa-arrow-up-right"></i></a>
 
                     </div>
@@ -672,7 +672,7 @@
                 <div class="gallery-card wow fadeInUp">
                     <div class="gallery-img"><img src="assets/img/gallery/gallery_1_4.jpg" alt="gallery image">
                     </div>
-                    <div class="gallery-content"><a href="assets/img/gallery/gallery_1_4.jpg"
+                    <div class="gallery-content"><a href="assets/img/gallery/gallery_1_4_4.jpg"
                                                     class="icon-btn popup-image"><i class="fa-solid fa-arrow-up-right"></i></a>
 
                     </div>

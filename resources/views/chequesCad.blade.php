@@ -86,7 +86,7 @@
                                     <span><i class="fa fa-clock-o" aria-hidden="true"></i>15min</span>
                                 </div>
                                 <h3 class="box-title">Bon cadeau 50€</h3>
-                                <a href="blog-details.html" class="line-btn">Lire la suite</i></a><br>
+                                <a href="" class="line-btn searchBoxToggler" >Lire la suite</i></a><br>
                                 <a href="{{route('bonAchat')}}"  class="line-btn">Acheter</i></a>
                             </div>
                         </div>

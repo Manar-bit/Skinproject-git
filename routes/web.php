@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,6 +25,5 @@ Route::get('technologies',[IndexController::class ,'technologies'])->name('techn
 Route::get('about',[IndexController::class ,'about'])->name('about');
 Route::get('chequesCad',[IndexController::class ,'chequesCad'])->name('chequesCad');
 Route::get('bonAchat',[IndexController::class ,'bonAchat'])->name('bonAchat');
-Route::get('/contact', 'ContactController@contact')->name('contact');
-Route::post('/contact', 'ContactController@contactPost')->name('contactPost');
-
+Route::get('contact', [ContactController::class ,'contact'])->name('contact');
+Route::post('contact/sendMail', [ContactController::class, 'sendMailcontact'])->name('contact.sendMailcontact');

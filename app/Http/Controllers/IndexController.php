@@ -13,7 +13,7 @@ class IndexController extends Controller
     }
     public function contact() {
 
-        return view('contact');
+        return view('contact.contact');
     }
     public function tarifs() {
 

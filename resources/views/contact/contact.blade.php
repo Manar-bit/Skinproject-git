@@ -4,7 +4,7 @@
 
 
 
-<div class="breadcumb-wrapper" data-bg-src="assets/img/breadcumb/breadcumb-bg.jpg">
+<div class="breadcumb-wrapper" data-bg-src="{{asset('assets/img/breadcumb/breadcumb-bg.jpg')}}">
     <div class="container">
         <div class="breadcumb-content">
             <h2 class="breadcumb-title">Contact</h2>

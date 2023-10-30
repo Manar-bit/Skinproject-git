@@ -5,13 +5,13 @@
                 <div class="col-md-6 col-xl-3">
                     <div class="widget footer-widget">
                         <div class="th-widget-about">
-                            <div class="about-logo"><a href="index.html"><img src="assets/img/logosk.png"
+                            <div class="about-logo"><a href="index.html"><img src="{{asset('assets/img/logosk.png')}}"
                                                                               alt="global skin"></a></div>
                             <p class="about-text">Global Skin est un centre d'épilation définitive au laser situé à Bruxelles qui vous offre une gamme
                                 complète de services de soins de la peau.</p>
 
-                            <div class="footer-btn mt-10"><button type="submit"
-                                                                  class="th-btn style3 fw-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">Réserver</button></div>
+                            <div class="footer-btn mt-10">                        <a href="" class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">Réserver</a>
+</div>
 
 
                         </div>
@@ -23,9 +23,9 @@
                         <div class="menu-all-pages-container">
                             <ul class="menu">
 
-                                <li><a href="globalskin-technologies.html">Technologies</a></li>
-                                <li><a href="globalskin-nos-tarifs.html">Tarifs</a></li>
-                                <li><a href="index.html">Réserver</a></li>
+                                <li><a href="{{route('technologies')}}">Technologies</a></li>
+                                <li><a href="{{route('tarifs')}}">Tarifs</a></li>
+                                <li><a href="{{route('tarifs')}}">Réserver</a></li>
                             </ul>
                         </div>
                     </div>
@@ -36,9 +36,9 @@
                         <div class="menu-all-pages-container">
                             <ul class="menu">
 
-                                <li><a href="globalskin-a-propos.html">À propos</a></li>
-                                <li><a href="globalskin-galerie-phtos.html">Galerie photos</a></li>
-                                <li><a href="globalskin-index.html"> Contact</a></li>
+                                <li><a href="{{route('about')}}">À propos</a></li>
+                                <li><a href="{{route('galerie')}}">Galerie photos</a></li>
+                                <li><a href="{{route('contact')}}"> Contact</a></li>
                                 <li><a href="globalskin-mention-légale.html"> Mention légale</a></li>
                             </ul>
                         </div>
@@ -56,14 +56,14 @@
                                                                                      href="mailto:info@help27/7info@rasm.com">info@globalskin.be</a></p>
 
                             <p class="footer-info"><i class="fas fa-map-marker-alt"></i>Rue de la Pépinière 2A, 1000 Bruxelles</p>
-                            <img class="footer-info" src="assets/img/payment.png" alt="visa">
+                            <img class="footer-info" src="{{asset('assets/img/payment.png')}}" alt="visa">
                         </div>
                         <div class="working-time"><span class="title">Rester connectée</span>
 
                         </div>
                         <div class="th-social footer-social">
-                            <a href="https://www.instagram.com/globalskinbxl/"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.twitter.com/globalskinbxl/"><i class="fab fa-instagram"></i></a> </div>
+                            <a href="https://www.facebook.com/globalskinbxl/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/globalskinbxl"><i class="fab fa-instagram"></i></a> </div>
                     </div>
                 </div>
 
@@ -77,14 +77,14 @@
                     <p class="copyright-text text-white">© 2023 <a
                             href="https://captivsolutions.be/">GLOBAL SKIN </a>| Tous droits réservés | Powered by
                     <a href="https://captivsolutions.be/" target="_blank">
-                        <img src="assets/img/powered.png" alt="Captiv Solutions"></a></p>
+                        <img src="{{asset('assets/img/powered.png')}}" alt="Captiv Solutions"></a></p>
                 </div>
 
             </div>
         </div>
     </div>
-    <div class="shape-mockup" data-top="0%" data-left="0%"><img src="assets/img/shape/footer_shape_1.png"
+    <div class="shape-mockup" data-top="0%" data-left="0%"><img src="{{asset('assets/img/shape/footer_shape_1.png')}}"
                                                                 alt="shape"></div>
     <div class="shape-mockup d-none d-xl-block" data-bottom="12%" data-right="0%"><img
-            src="assets/img/shape/footer_shape_2.png" alt="shape"></div>
+            src="{{asset('assets/img/shape/footer_shape_2.png')}}" alt="shape"></div>
 </footer>

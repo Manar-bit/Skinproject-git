@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="breadcumb-wrapper" data-bg-src="assets/img/breadcumb/breadcumb-bg2.jpg">
+<div class="breadcumb-wrapper" data-bg-src="{{asset('assets/img/breadcumb/breadcumb-bg2.jpg')}}">
     <div class="container">
         <div class="breadcumb-content">
             <h2 class="breadcumb-title">Tarifs</h2>
@@ -32,7 +32,7 @@
             <div class="row gallery-row filter-active-1">
                 <div class="col-lg-6 col-xl-4 filter-item visage">
                     <div class="th-blog blog-single has-post-thumbnail">
-                        <div class="blog-img"><a href="blog-details.html"><img src="assets/img/blog/blog-s-1-1.jpg" alt="Blog Image"></a></div>
+                        <div class="blog-img"><a href="blog-details.html"><img src="{{asset('assets/img/blog/blog-s-1-1.jpg')}}" alt="Blog Image"></a></div>
                         <div class="blog-content">
                             <div class="blog-meta">
                                 <p> A partir de</p>
@@ -45,7 +45,7 @@
                 </div>
                 <div class="col-lg-6 col-xl-4 filter-item bras">
                     <div class="th-blog blog-single has-post-thumbnail">
-                        <div class="blog-img"><a href="blog-details.html"><img src="assets/img/blog/blog-s-1-2.jpg"
+                        <div class="blog-img"><a href="blog-details.html"><img src="{{asset('assets/img/blog/blog-s-1-2.jpg')}}"
                                                                                alt="Blog Image"></a></div>
                         <div class="blog-content">
                             <div class="blog-meta">
@@ -60,7 +60,7 @@
                 </div>
                 <div class="col-lg-6 col-xl-4 filter-item bras">
                     <div class="th-blog blog-single has-post-thumbnail">
-                        <div class="blog-img"><a href="blog-details.html"><img src="assets/img/blog/blog-s-1-3.jpg"
+                        <div class="blog-img"><a href="blog-details.html"><img src="{{asset('assets/img/blog/blog-s-1-3.jpg')}}"
                                                                                alt="Blog Image"></a></div>
                         <div class="blog-content">
                             <div class="blog-meta">
@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-lg-6 col-xl-4 filter-item bras">
                     <div class="th-blog blog-single has-post-thumbnail">
-                        <div class="blog-img"><a href="blog-details.html"><img src="assets/img/blog/blog-s-1-4.jpg"
+                        <div class="blog-img"><a href="blog-details.html"><img src="{{asset('assets/img/blog/blog-s-1-4.jpg')}}"
                                                                                alt="Blog Image"></a></div>
                         <div class="blog-content">
                             <div class="blog-meta">
@@ -90,7 +90,7 @@
                 </div>
                 <div class="col-lg-6 col-xl-4 filter-item bras">
                     <div class="th-blog blog-single has-post-thumbnail">
-                        <div class="blog-img"><a href="blog-details.html"><img src="assets/img/blog/blog-s-1-5.jpg"
+                        <div class="blog-img"><a href="blog-details.html"><img src="{{asset('assets/img/blog/blog-s-1-5.jpg')}}"
                                                                                alt="Blog Image"></a></div>
                         <div class="blog-content">
                             <div class="blog-meta">
@@ -105,7 +105,7 @@
                 </div>
                 <div class="col-lg-6 col-xl-4 filter-item jambes">
                     <div class="th-blog blog-single has-post-thumbnail">
-                        <div class="blog-img"><a href="blog-details.html"><img src="assets/img/blog/blog-s-1-6.jpg"
+                        <div class="blog-img"><a href="blog-details.html"><img src="{{asset('assets/img/blog/blog-s-1-6.jpg')}}"
                                                                                alt="Blog Image"></a></div>
                         <div class="blog-content">
                             <div class="blog-meta">
@@ -120,7 +120,7 @@
                 </div>
                 <div class="col-lg-6 col-xl-4 filter-item corps">
                     <div class="th-blog blog-single has-post-thumbnail">
-                        <div class="blog-img"><a href="blog-details.html"><img src="assets/img/blog/blog-s-1-7.png"
+                        <div class="blog-img"><a href="blog-details.html"><img src="{{asset('assets/img/blog/blog-s-1-7.png')}}"
                                                                                alt="Blog Image"></a></div>
                         <div class="blog-content">
                             <div class="blog-meta">
@@ -135,7 +135,7 @@
                 </div>
                 <div class="col-lg-6 col-xl-4 filter-item visage">
                     <div class="th-blog blog-single has-post-thumbnail">
-                        <div class="blog-img"><a href="blog-details.html"><img src="assets/img/blog/blog-s-1-8.jpg"
+                        <div class="blog-img"><a href="blog-details.html"><img src="{{asset('assets/img/blog/blog-s-1-8.jpg')}}"
                                                                                alt="Blog Image"></a></div>
                         <div class="blog-content">
                             <div class="blog-meta">
@@ -150,7 +150,7 @@
                 </div>
                 <div class="col-lg-6 col-xl-4 filter-item visage">
                     <div class="th-blog blog-single has-post-thumbnail">
-                        <div class="blog-img"><a href="blog-details.html"><img src="assets/img/blog/blog-s-1-9.jpg"
+                        <div class="blog-img"><a href="blog-details.html"><img src="{{asset('assets/img/blog/blog-s-1-9.jpg')}}"
                                                                                alt="Blog Image"></a></div>
                         <div class="blog-content">
                             <div class="blog-meta">
@@ -165,7 +165,7 @@
                 </div>
                 <div class="col-lg-6 col-xl-4 filter-item jambes">
                     <div class="th-blog blog-single has-post-thumbnail">
-                        <div class="blog-img"><a href="blog-details.html"><img src="assets/img/blog/blog-s-1-10.jpg"
+                        <div class="blog-img"><a href="blog-details.html"><img src="{{asset('assets/img/blog/blog-s-1-10.jpg')}}"
                                                                                alt="Blog Image"></a></div>
                         <div class="blog-content">
                             <div class="blog-meta">
@@ -180,7 +180,7 @@
                 </div>
                 <div class="col-lg-6 col-xl-4 filter-item corps">
                     <div class="th-blog blog-single has-post-thumbnail">
-                        <div class="blog-img"><a href="blog-details.html"><img src="assets/img/blog/blog-s-1-11.png"
+                        <div class="blog-img"><a href="blog-details.html"><img src="{{asset('assets/img/blog/blog-s-1-11.png')}}"
                                                                                alt="Blog Image"></a></div>
                         <div class="blog-content">
                             <div class="blog-meta">
@@ -195,7 +195,7 @@
                 </div>
                 <div class="col-lg-6 col-xl-4 filter-item corps">
                     <div class="th-blog blog-single has-post-thumbnail">
-                        <div class="blog-img"><a href="blog-details.html"><img src="assets/img/blog/blog-s-1-11.jpg"
+                        <div class="blog-img"><a href="blog-details.html"><img src="{{asset('assets/img/blog/blog-s-1-11.jpg')}}"
                                                                                alt="Blog Image"></a></div>
                         <div class="blog-content">
                             <div class="blog-meta">

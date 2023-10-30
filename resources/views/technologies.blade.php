@@ -4,7 +4,7 @@
 @section('content')
 
 
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/breadcumb/breadcumb-bg1.jpg">
+    <div class="breadcumb-wrapper" data-bg-src="{{asset('assets/img/breadcumb/breadcumb-bg1.jpg')}}">
         <div class="container">
             <div class="breadcumb-content">
                 <h2 class="breadcumb-title">Technologies</h2>
@@ -29,7 +29,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
-                    <img src="assets/img/testimonial/testi1.jpg"
+                    <img src="{{asset('assets/img/testimonial/testi1.jpg')}}"
                          alt="Avater">
                 </div>
                 <div class="col-xl-6">
@@ -53,7 +53,7 @@
 
                             </div>
                             <div class="col-auto d-none d-xl-block">
-                                <a href="about.html" class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">Réserver</a>
+                                <a href="{{route('tarifs')}}" class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">Réserver</a>
 
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div>
-                        <div class="img1 wow fadeInRight"><img src="assets/img/normal/tech1.png" alt="Choose"></div>
+                        <div class="img1 wow fadeInRight"><img src="{{asset('assets/img/normal/tech1.png')}}" alt="Choose"></div>
 
                     </div>
                 </div>
@@ -106,7 +106,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
-                    <img src="assets/img/normal/tech2.jpg"
+                    <img src="{{asset('assets/img/normal/tech2.jpg')}}"
                          alt="Avater">
                 </div>
                 <div class="col-xl-6">

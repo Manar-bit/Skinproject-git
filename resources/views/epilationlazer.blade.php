@@ -4,7 +4,7 @@
 @section('content')
 
 
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/breadcumb/breadcumb-bg.jpg">
+    <div class="breadcumb-wrapper" data-bg-src="{{asset('assets/img/breadcumb/breadcumb-bg.jpg')}}">
         <div class="container">
             <div class="breadcumb-content">
                 <h2 class="breadcumb-title">Epilation Lazer</h2>
@@ -24,14 +24,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
-                    <img src="assets/img/testimonial/testi1.jpg"
+                    <img src="{{asset('assets/img/testimonial/testi1.jpg')}}"
                          alt="Avater">
                 </div>
                 <div class="col-xl-6">
                     <div class="ps-xl-4">
                         <div class="title-area mb-40">
                              <span class="sub-title">Epilation Lazer Efficace<img
-                                     src="assets/img/theme-img/title_right.svg" alt=""></span>
+                                     src="{{asset('assets/img/theme-img/title_right.svg')}}" alt=""></span>
                             <h2 class="sec-title">Global Skin</h2>
 
                         </div>
@@ -90,7 +90,7 @@
                     </div>
                 </div>
                 <div class="col-xl-6">
-                    <img src="assets/img/normal/epilation_1.jpg"
+                    <img src="{{asset('assets/img/normal/epilation_1.jpg')}}"
                          alt="Avater">
                 </div>
             </div>
@@ -103,14 +103,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
-                    <img src="assets/img/normal/epilation_2.jpg"
+                    <img src="{{asset('assets/img/normal/epilation_2.jpg')}}"
                          alt="Avater">
                 </div>
                 <div class="col-xl-6">
                     <div class="ps-xl-4">
                         <div class="title-area mb-40">
                             <span class="sub-title">NE VOUS SOUCIEZ PLUS JAMAIS DES REPOUSSES !</span>
-                            <h2 class="sec-title">Contactez-nous pour profiter de notre offre d'Épilation laser de TOUT le corps</h2>
+                            <h3 class="sec-title">Contactez-nous pour profiter de notre offre</h3>
 
 
 
@@ -162,11 +162,11 @@
 
 
 
-    <div class="faq-sec overflow-hidden space"  style="background-image: linear-gradient( 109.6deg, #eed9b1 25.2%, #ab6a491f 99.1% );">
+    <div class="faq-sec overflow-hidden space"  >
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
-                    <img src="assets/img/normal/epilation_3.jpg"
+                    <img src="{{asset('assets/img/normal/epilation_3.jpg')}}"
                          alt="Avater">
                 </div>
                 <div class="col-xl-6">
@@ -177,23 +177,18 @@
 
                             <div class="accordion-body" class="accordion-body1" >
                                 <p class="faq-text">
-                               <p>
-                                        5- L'épilation définitive représente un réel gain de temps hebdomadaire dans la
-                                        routine beauté des femmes
-                                    </p> <p>6- Dotés des machines les plus performantes du marché, l'appareil permet désormais
+                              <p>5- Dotés des machines les plus performantes du marché, l'appareil permet désormais
                                         d'épiler toutes les couleurs de peaux efficacement et en toute sécurité.
-                                    </p> <p>7- Le traitement laser n'est pas douloureux sans être agréable pour autant mais tout
+                                    </p> <p>6- Le traitement laser n'est pas douloureux sans être agréable pour autant mais tout
                                         est fait pour le confort et le bien-être sur les zones les plus sensibles, une crème
                                         anesthésiante est appliquée pour limiter les picotements.
-                                    </p> <p>8- Même si les séances d'épilation laser représentent un certain investissement,
+                                    </p> <p>7- Même si les séances d'épilation laser représentent un certain investissement,
                                         elles permettent des économies sur le long terme : plus d'achats de matériel pour
                                         s'épiler à domicile, ni de rendez-vous chez l'esthéticienne.
-                                    </p> <p>9- Dès le traitement débuté, séance après séance, les poils deviennent plus fins et
+                                    </p> <p>8- Dès le traitement débuté, séance après séance, les poils deviennent plus fins et
                                         moins nombreux. Les avantages de cette méthode d'épilation sont donc rapidement
                                         visibles.
-                                    </p> <p>10- Réalisée dans des conditions d'hygiène irréprochables, cette méthode d'épilation
-                                        met un terme aux problèmes d'inflammations, d'irritations et de démangeaisons.
-                                    </p>
+                                    </p> 
                                 </p>
                             </div>
                         </div>

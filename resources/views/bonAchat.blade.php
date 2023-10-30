@@ -4,7 +4,7 @@
 @section('content')
 
 
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/breadcumb/breadcumb-bg3.jpg">
+    <div class="breadcumb-wrapper" data-bg-src="{{asset('assets/img/breadcumb/breadcumb-bg3.jpg')}}">
         <div class="container">
             <div class="breadcumb-content">
                 <h2 class="breadcumb-title">Bon cadeau 150€</h2>

@@ -5,17 +5,17 @@
                 <div class="col-auto d-none d-lg-block">
                     <div class="header-links">
                         <ul>
-                            <li><i class="far fa-phone"></i><a href="tel:+256214203215">+32 470 37 90 18</a></li>
-                            <li><i class="far fa-envelope"></i><a href="mailto:info@rasm.com">info@globalskin.be</a></li>
+                            <li><i class="far fa-phone"></i><a href="tel:+32 470 37 90 18">+32 470 37 90 18</a></li>
+                            <li><i class="far fa-envelope"></i><a href="mailto:info@globalskin.be">info@globalskin.be</a></li>
                             <li><i class="fa-regular fa-location-dot"></i>Rue de la Pépinière 2A, 1000 Bruxelles</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-auto ">
                     <div class="social-links"><span class="social-title">Rejoignez-nous sur</span> <a
-                            href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                            href="https://www.facebook.com/globalskinbxl/"><i class="fab fa-facebook-f"></i></a>
 
-                        <a href="https://www.linkedin.com/"><i class="fab fa-instagram"></i> </a></div>
+                        <a href="https://www.instagram.com/globalskinbxl"><i class="fab fa-instagram"></i> </a></div>
                 </div>
             </div>
         </div>
@@ -25,7 +25,7 @@
             <div class="container th-container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
-                        <div class="header-logo"><a href="index.html"><img src="assets/img/logo-globalskin.png" alt="Rasm"></a>
+                        <div class="header-logo"><a href="index.html"><img src="{{asset('assets/img/logo-globalskin.png')}}" alt="Rasm"></a>
                         </div>
                     </div>
                     <div class="col-auto me-xl-auto">
@@ -54,7 +54,7 @@
                                 class="far fa-bars"></i></button>
                     </div>
                     <div class="col-auto d-none d-xl-block">
-                        <a href="about.html" class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">Réserver</a>
+                        <a href="" class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">Réserver</a>
 
                     </div>
                 </div>

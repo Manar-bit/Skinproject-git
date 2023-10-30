@@ -15,7 +15,7 @@
                             <span class="sub-title" data-ani="slideindown" data-ani-delay="0.2s">Bienvenue chez Global Skin </span>
                             <h1 class="hero-title" data-ani="slideindown" data-ani-delay="0.3s">Epilation Définitive au Laser à Bruxelles</h1>
                             <div class="btn-group justify-content-center" data-ani="slideindown" data-ani-delay="0.4s">
-                                <a href="{{route('about')}}" class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">En savoir +<i class="fa-regular fa-arrow-right ms-2"></i></a></div>
+                                <a href="{{route('about')}}" class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">En savoir +</a></div>
                         </div>
                     </div>
 
@@ -25,9 +25,9 @@
 
     </div>
     <div class="shape-mockup movingX d-none d-xl-block" data-top="12%" data-left="2%"><img
-            src="assets/img/shape/leaves_12.png" alt="shape"></div>
+            src="{{asset('assets/img/shape/leaves_12.png')}}" alt="shape"></div>
     <div class="shape-mockup shape2 jump" data-bottom="10%" data-left="0%"><img
-            src="assets/img/shape/service_shape2.png" alt="shape"></div>
+            src="{{asset('assets/img/shape/service_shape2.png')}}" alt="shape"></div>
 
 
 </section>
@@ -37,13 +37,13 @@
             <div class="row">
                 <div class="col-xl-6">
                     <div class="img-box4">
-                        <div class="img4 wow fadeInUp"><img class="tilt-active" src="assets/img/normal/about_3_1.jpg"
+                        <div class="img4 wow fadeInUp"><img class="tilt-active" src="{{asset('assets/img/normal/about_3_1.jpg')}}"
                                                             alt="About"></div>
-                        <div class="img5 wow fadeInRight"><img class="tilt-active" src="assets/img/normal/about_3_2.jpg"
+                        <div class="img5 wow fadeInRight"><img class="tilt-active" src="{{asset('assets/img/normal/about_3_2.jpg')}}"
                                                                alt="About"></div>
 
                         <div class="about-company-since-wrap">
-                            <div class="about-icon"><img src="assets/img/icon/logo-ic.png" alt="img"></div>
+                            <div class="about-icon"><img src="{{asset('assets/img/icon/logo-ic.png')}}" alt="img"></div>
                             <div class="about-tag"><span class="about-anime">Global   Skin</span></div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                 <div class="col-xl-6">
                     <div class="ps-xl-4 wow fadeInUp">
                         <div class="title-area"><span class="sub-title">GLOBAL SKIN <img
-                                    src="assets/img/theme-img/title_right.svg" alt=""></span>
+                                    src="{{asset('assets/img/theme-img/title_right.svg')}}" alt=""></span>
                             <h2 class="sec-title">Centre d'épilation définitive à Bruxelles</h2>
                             <p class="about-desc">Global Skin est un centre d'épilation définitive au laser situé à Bruxelles qui vous offre une gamme complète de services de soins de la peau. <br>
 
@@ -62,8 +62,7 @@
 
 
                         </div>
-                        <div class="btn-group mt-45"><a href="{{route('about')}}" class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">En savoir +<i
-                                    class="fa-solid fa-arrow-right ms-2"></i></a>
+                        <div class="btn-group mt-45"><a href="{{route('about')}}" class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">En savoir +</a>
 
 
                             </div>
@@ -77,10 +76,10 @@
 
 
     <div class="shape-mockup jump d-none d-xl-block" data-bottom="0%" data-left="0%"><img
-            src="assets/img/shape/leaves_1.png" alt="shape"></div>
+            src="{{asset('assets/img/shape/leaves_1.png')}}" alt="shape"></div>
     <div class="shape-mockup jump d-none d-xl-block" data-top="20%" data-right="0%"><img
-            src="assets/img/shape/leaves_7.png" alt="shape"></div>
-    <div class="sec-shape"><span class="sec-shape_img"><img src="assets/img/icon/logo-ic-30.png" alt=""></span></div>
+            src="{{asset('assets/img/shape/leaves_7.png')}}" alt="shape"></div>
+    <div class="sec-shape"><span class="sec-shape_img"><img src="{{asset('assets/img/icon/logo-ic-30.png')}}" alt=""></span></div>
 
 
 </section>
@@ -97,43 +96,43 @@
              data-xs-slide-show="1">
             <div class="col-md-6 col-lg-4">
                 <div class="testi-grid wow fadeInUp" class="testi-grid1">
-                    <div class="testi-grid_img"><img src="assets/img/testimonial/testi_2_1.jpg" alt=""></div>
+                    <div class="testi-grid_img"><img src="{{asset('assets/img/testimonial/testi_2_1.jpg')}}" alt=""></div>
                     <h3 class="box-title">Le traitement laser n'est pas douleureux sans être agréable pour autant mais tout est fait pour
                         le confort et le bien-être sur les zones les plus sensibles !</h3>
 
 
-                    <div class="testi-shape1"><img src="assets/img/shape/leaf_2.svg" alt=""></div>
-                    <div class="testi-shape2"><img src="assets/img/shape/flower_1_6.svg" alt=""></div>
+                    <div class="testi-shape1"><img src="{{asset('assets/img/shape/leaf_2.svg')}}" alt=""></div>
+                    <div class="testi-shape2"><img src="{{asset('assets/img/shape/flower_1_6.svg')}}" alt=""></div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="testi-grid wow fadeInDown">
-                    <div class="testi-grid_img"><img src="assets/img/testimonial/testi_2_2.jpg" alt=""></div>
+                    <div class="testi-grid_img"><img src="{{asset('assets/img/testimonial/testi_2_2.jpg')}}" alt=""></div>
                     <h3 class="box-title">Réalisée dans des conditions d'hygiène irréprochables, cette méthode d'épilation met un terme
                         aux problèmes d'inflammations, d'infections et de démangeaisons !.</h3>
 
-                    <div class="testi-shape1"><img src="assets/img/shape/leaf_2.svg" alt=""></div>
-                    <div class="testi-shape2"><img src="assets/img/shape/flower_1_6.svg" alt=""></div>
+                    <div class="testi-shape1"><img src="{{asset('assets/img/shape/leaf_2.svg')}}" alt=""></div>
+                    <div class="testi-shape2"><img src="{{asset('assets/img/shape/flower_1_6.svg')}}" alt=""></div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="testi-grid wow fadeInUp">
-                    <div class="testi-grid_img"><img src="assets/img/testimonial/testi_2_3.jpg" alt=""></div>
+                    <div class="testi-grid_img"><img src="{{asset('assets/img/testimonial/testi_2_3.jpg')}}" alt=""></div>
                     <h3 class="box-title">Terminées les douleurs régulières liées à l'épilation à la cire !</h3>
 
-                    <div class="testi-shape1"><img src="assets/img/shape/leaf_2.svg" alt=""></div>
-                    <div class="testi-shape2"><img src="assets/img/shape/flower_1_6.svg" alt=""></div>
+                    <div class="testi-shape1"><img src="{{asset('assets/img/shape/leaf_2.svg')}}" alt=""></div>
+                    <div class="testi-shape2"><img src="{{asset('assets/img/shape/flower_1_6.svg')}}" alt=""></div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="testi-grid wow fadeInDown">
-                    <div class="testi-grid_img"><img src="assets/img/testimonial/testi_2_4.jpg" alt=""></div>
+                    <div class="testi-grid_img"><img src="{{asset('assets/img/testimonial/testi_2_4.jpg')}}" alt=""></div>
                     <h3 class="box-title">Gagnez votre sérénité sans avoir à vous soucier de vos poils !
 
                     </h3>
 
-                    <div class="testi-shape1"><img src="assets/img/shape/leaf_2.svg" alt=""></div>
-                    <div class="testi-shape2"><img src="assets/img/shape/flower_1_6.svg" alt=""></div>
+                    <div class="testi-shape1"><img src="{{asset('assets/img/shape/leaf_2.svg')}}" alt=""></div>
+                    <div class="testi-shape2"><img src="{{asset('assets/img/shape/flower_1_6.svg')}}" alt=""></div>
                 </div>
             </div>
         </div>
@@ -144,7 +143,7 @@
     <div class="container">
         <div class="counter-sec space-top">
         </div>
-        <div class="sec-shape"><span class="sec-shape_img"><img src="assets/img/icon/logo-ic-30.png" alt=""></span></div>
+        <div class="sec-shape"><span class="sec-shape_img"><img src="{{asset('assets/img/icon/logo-ic-30.png')}}" alt=""></span></div>
     </div>
 </div>
 
@@ -155,19 +154,19 @@
                 <div class="testimonial-wrapper wow fadeInUp">
                     <div class="th-carousel number-dots" data-asnavfor="#testiSlide" id="tesitslide-img" data-slide-show="1" data-dots="true" data-xl-dots="true" data-ml-dots="true" data-lg-dots="true" data-md-dots="true" data-fade="true">
                         <div>
-                            <div class="testi-slide-img"><img src="assets/img/testimonial/testi_1_1.jpg" alt="">
+                            <div class="testi-slide-img"><img src="{{asset('assets/img/testimonial/testi_1_1.jpg')}}" alt="">
                             </div>
                         </div>
                         <div>
-                            <div class="testi-slide-img"><img src="assets/img/testimonial/testi_1_2.jpg" alt="">
+                            <div class="testi-slide-img"><img src="{{asset('assets/img/testimonial/testi_1_2.jpg')}}" alt="">
                             </div>
                         </div>
                         <div>
-                            <div class="testi-slide-img"><img src="assets/img/testimonial/testi_1_3.jpg" alt="">
+                            <div class="testi-slide-img"><img src="{{asset('assets/img/testimonial/testi_1_3.jpg')}}" alt="">
                             </div>
                         </div>
                         <div>
-                            <div class="testi-slide-img"><img src="assets/img/testimonial/tes_1_4.png" alt="">
+                            <div class="testi-slide-img"><img src="{{asset('assets/img/testimonial/tes_1_4.png')}}" alt="">
                             </div>
                         </div>
                     </div>
@@ -180,21 +179,22 @@
                     <div class="th-carousel" id="testiSlide" data-slide-show="1" data-fade="true" data-asnavfor=" #tesitslide-img">
                         <div>
                             <div class="testi-item">
-                                <div class="testi-item_img"><img src="assets/img/testimonial/testi_1_1.jpg" alt=""></div>
+                                <div class="testi-item_img"><img src="{{asset('assets/img/testimonial/testi_1_1.jpg')}}" alt=""></div>
                                 <h4 class="testi-item_name">Epilation lèvre suprieure</h4>
                                 <p>
-                                    Les traitements au laser de la lèvre supérieure présentent de nombreux avantages. Contrairement aux autres méthodes d'épilation, l'épilation au laser élimine définitivement les poils indésirables. Ce traitement est également moins douloureux, plus précis et n'abîme pas votre peau, contrairement au rasage et à l'épilation à la cire.
+                                    Les traitements au laser de la lèvre supérieure présentent de nombreux avantages. Contrairement aux autres méthodes d'épilation, 
+                                    l'épilation au laser élimine définitivement les poils indésirables. Ce traitement est également moins douloureux, plus précis et n'abîme pas votre peau, contrairement au rasage et à l'épilation à la cire.
                                 </p>
                                 <div class="testi-item_profile">
                                     <div class="media-body mb-3">
-                                        <a href class="testi-item_desig position-relative">Réserver</a>
+                                        <a href="" class="testi-item_desig position-relative">Réserver</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div>
                             <div class="testi-item">
-                                <div class="testi-item_img"><img src="assets/img/testimonial/testi_1_2.jpg" alt="">
+                                <div class="testi-item_img"><img src="{{asset('assets/img/testimonial/testi_1_2.jpg')}}" alt="">
                                 </div>
                                 <h4 class="testi-item_name">Epilation maillot</h4>
                                 <p>
@@ -203,14 +203,14 @@
                                 <div class="testi-item_profile">
                                     <div class="media-body"  mb-3>
 
-                                        <a href class="testi-item_desig position-relative">Réserver</a>
+                                        <a href="" class="testi-item_desig position-relative">Réserver</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div>
                             <div class="testi-item">
-                                <div class="testi-item_img"><img src="assets/img/testimonial/testi_1_3.jpg" alt="">
+                                <div class="testi-item_img"><img src="{{asset('assets/img/testimonial/testi_1_3.jpg')}}" alt="">
                                 </div>
                                 <h4 class="testi-item_name">Epilation jambes</h4>
                                 <p>
@@ -226,7 +226,7 @@
                         </div>
                         <div>
                             <div class="testi-item">
-                                <div class="testi-item_img"><img src="assets/img/testimonial/tes_1_4.png" alt="">
+                                <div class="testi-item_img"><img src="{{asset('assets/img/testimonial/tes_1_4.png')}}" alt="">
                                 </div>
                                 <h4 class="testi-item_name">Epilation aisselles</h4>
                                 <p>
@@ -243,18 +243,18 @@
                         </div>
 
                     </div>
-                    <div class="testi-shape1"><img src="assets/img/shape/leaf.svg" alt=""></div>
-                    <div class="testi-shape2"><img src="assets/img/shape/flower_1_4.png" alt=""></div>
+                    <div class="testi-shape1"><img src="{{asset('assets/img/shape/leaf.svg')}}" alt=""></div>
+                    <div class="testi-shape2"><img src="{{asset('assets/img/shape/flower_1_4.png')}}" alt=""></div>
                 </div>
             </div>
     </div>
 
     <div class="shape-mockup jump d-none d-xxl-block" data-top="30%" data-right="0%"><img
-            src="assets/img/shape/leaves_4.png" alt="shape"></div>
+            src="{{asset('assets/img/shape/leaves_4.png')}}" alt="shape"></div>
 </div>
 
 </div>
-    <div class="appointment-area space" id="contact-sec" data-bg-src="assets/img/bg/appointment_bg_1.jpg">
+    <div class="appointment-area space" id="contact-sec" data-bg-src="{{asset('assets/img/bg/appointment_bg_1.jpg')}}">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-sm-9 bg-trans">
@@ -268,8 +268,12 @@
 
                         <p class="mad-text-medium content-element-6 text-shadow-white">L'épilation au laser est une solution pour éliminer les poils indésirables et peut convenir à tout le monde. Cependant, lors d'une séance d'épilation au laser, certains éléments sont pris en compte tels que le type de peau et la couleur des poils pour adapter le traitement en conséquence. Le choix du laser utilisé et le nombre de séances nécessaires peuvent varier en fonction de ces facteurs. Ainsi, il est important de déterminer le type de peau et la couleur des poils avant de choisir le laser le plus approprié pour obtenir les meilleurs résultats possibles. Nous sommes là pour vous guider tout au long de ce processus afin que vous puissiez obtenir
                             une épilation au laser efficace et sécurisée.</p>
-                        <div class="btn-group justify-content-center justify-content-lg-start" ><button href="{{route('contact')}}"
-                                class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">Contactez-nous </button></div>
+                        <div class="btn-group justify-content-center justify-content-lg-start" >
+                           
+                                <a href="{{route('contact')}}" class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">Contactez-nous</a>
+
+                            </div>
+                          
 
 
                     </div>
@@ -289,15 +293,15 @@
                         <h2 class="sec-title">Laser de dernière génération</h2>
                         <p class="mt-n2 mb-35">Notre laser de dernière génération permet d’épiler en toute sécurité et de façon précise tous
                             les types de peau, notamment les peaux mates, noires, foncées et même bronzées..</p>
-                        <button
-                            class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">Contactez-nous </button>
+                            <a href="{{route('contact')}}" class="th-btn" style="border-radius: 15px 0 15px ; box-shadow: 5px 5px 5px rgba(41,59,95,.25);">Contactez-nous</a>
+
                     </div>
 
                 </div>
             </div>
             <div class="col-lg-5">
                 <div class="choose-image">
-                    <div class="img1 wow fadeInRight"><img src="assets/img/normal/choose_1.png" alt="Choose"></div>
+                    <div class="img1 wow fadeInRight"><img src="{{asset('assets/img/normal/choose_1.png')}}" alt="Choose"></div>
 
                 </div>
             </div>
@@ -311,7 +315,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
-                   <img src="assets/img/testimonial/testi_3_1.jpg"
+                   <img src="{{asset('assets/img/testimonial/testi_3_1.jpg')}}"
                         alt="Avater">
                 </div>
                 <div class="col-xl-6">
@@ -391,7 +395,7 @@
             <div class="row">
                 <div class="col-xl-10 wow fadeInLeft">
                     <div class="title-area mb-40 text-center text-xl-start"><span class="sub-title">TARIFS À LA SÉANCE<img
-                                src="assets/img/theme-img/title_right.svg" alt=""></span>
+                                src="{{asset('assets/img/theme-img/title_right.svg')}}" alt=""></span>
                         <h2 class="sec-title">Prix et zones d'épilation laser permanent</h2>
                     </div>
                     <div class="nav nav-tabs pricing-tabs" id="nav-tab" role="tablist">
@@ -616,7 +620,7 @@
 
             </div>
         </div>
-        <div class="shape-mockup jump" data-top="0%" data-right="0%"><img src="assets/img/shape/flower_1_11.png"
+        <div class="shape-mockup jump" data-top="0%" data-right="0%"><img src="{{asset('assets/img/shape/flower_1_11.png')}}"
                 alt="shape"></div>
     </section>
 
@@ -631,7 +635,7 @@
         <div class="row align-items-center">
             <div class="col-lg-12">
                 <div class="title-area text-center text-lg-start"><span class="sub-title">GLOBAL SKIN<img
-                            src="assets/img/theme-img/title_right.svg" alt=""></span>
+                            src="{{asset('assets/img/theme-img/title_right.svg')}}" alt=""></span>
                     <h2 class="sec-title">Explorez notre centre d'épilation laser</h2>
                 </div>
             </div>
@@ -640,9 +644,9 @@
         <div class="row gallery-row filter-active">
             <div class="col-xl-auto col-md-6 filter-item cat1 cat3 cat4">
                 <div class="gallery-card wow fadeInUp">
-                    <div class="gallery-img"><img src="assets/img/gallery/gallery_1_1.jpg" alt="gallery image">
+                    <div class="gallery-img"><img src="{{asset('assets/img/gallery/gallery_1_1.jpg')}}" alt="gallery image">
                     </div>
-                    <div class="gallery-content"><a href="assets/img/gallery/gallery_1_1.jpg"
+                    <div class="gallery-content"><a href="{{asset('assets/img/gallery/gallery_1_1.jpg')}}"
                                                     class="icon-btn popup-image"><i class="fa-solid fa-arrow-up-right"></i></a>
 
                     </div>
@@ -650,9 +654,9 @@
             </div>
             <div class="col-xl-auto col-md-6 filter-item cat1 cat2 cat4">
                 <div class="gallery-card wow fadeInUp">
-                    <div class="gallery-img"><img src="assets/img/gallery/gallery_1_2.jpg" alt="gallery image">
+                    <div class="gallery-img"><img src="{{asset('assets/img/gallery/gallery_1_2.jpg')}}" alt="gallery image">
                     </div>
-                    <div class="gallery-content"><a href="assets/img/gallery/gallery_1_2_2.jpg"
+                    <div class="gallery-content"><a href="{{asset('assets/img/gallery/gallery_1_2_2.jpg')}}"
                                                     class="icon-btn popup-image"><i class="fa-solid fa-arrow-up-right"></i></a>
 
                     </div>
@@ -660,9 +664,9 @@
             </div>
             <div class="col-xl-auto col-md-6 filter-item cat1 cat3 cat4">
                 <div class="gallery-card wow fadeInUp">
-                    <div class="gallery-img"><img src="assets/img/gallery/gallery_1_3.jpg" alt="gallery image">
+                    <div class="gallery-img"><img src="{{asset('assets/img/gallery/gallery_1_3.jpg')}}" alt="gallery image">
                     </div>
-                    <div class="gallery-content"><a href="assets/img/gallery/gallery_1_3_3.jpg"
+                    <div class="gallery-content"><a href="{{asset('assets/img/gallery/gallery_1_3_3.jpg')}}"
                                                     class="icon-btn popup-image"><i class="fa-solid fa-arrow-up-right"></i></a>
 
                     </div>
@@ -670,9 +674,9 @@
             </div>
             <div class="col-xl-auto col-md-6 filter-item cat3 cat4 cat2">
                 <div class="gallery-card wow fadeInUp">
-                    <div class="gallery-img"><img src="assets/img/gallery/gallery_1_4.jpg" alt="gallery image">
+                    <div class="gallery-img"><img src="{{asset('assets/img/gallery/gallery_1_4.jpg')}}" alt="gallery image">
                     </div>
-                    <div class="gallery-content"><a href="assets/img/gallery/gallery_1_4_4.jpg"
+                    <div class="gallery-content"><a href="{{asset('assets/img/gallery/gallery_1_4_4.jpg')}}"
                                                     class="icon-btn popup-image"><i class="fa-solid fa-arrow-up-right"></i></a>
 
                     </div>
@@ -681,9 +685,9 @@
         </div>
     </div>
     <div class="shape-mockup jump d-none d-xl-block" data-bottom="15%" data-left="0%"><img
-            src="assets/img/shape/leaves_1.png" alt="shape"></div>
+            src="{{asset('assets/img/shape/leaves_1.png')}}" alt="shape"></div>
     <div class="shape-mockup jump d-none d-xxl-block" data-top="10%" data-right="0%"><img
-            src="assets/img/shape/leaves_7.png" alt="shape"></div>
+            src="{{asset('assets/img/shape/leaves_7.png')}}" alt="shape"></div>
 </div>
 
 @endsection

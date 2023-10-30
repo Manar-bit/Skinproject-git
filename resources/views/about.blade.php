@@ -3,7 +3,7 @@
 @section('content')
 
 
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/breadcumb/breadcumb-bg.jpg">
+    <div class="breadcumb-wrapper" data-bg-src="{{asset('assets/img/breadcumb/breadcumb-bg.jpg')}}">
         <div class="container">
             <div class="breadcumb-content">
                 <h2 class="breadcumb-title">Technologies</h2>
@@ -23,7 +23,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
-                    <img src="assets/img/normal/tech4.jpg"
+                    <img src="{{asset('assets/img/normal/tech4.jpg')}}"
                          alt="Avater">
                 </div>
                 <div class="col-xl-6">
@@ -93,7 +93,7 @@
                     </div>
                 </div>
                 <div class="col-xl-6">
-                    <img src="assets/img/normal/tech3.jpg"
+                    <img src="{{asset('assets/img/normal/tech3.jpg')}}"
                          alt="Avater">
                 </div>
             </div>
